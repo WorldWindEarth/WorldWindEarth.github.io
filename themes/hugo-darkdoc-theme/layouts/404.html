@@ -1,0 +1,29 @@
+{{ partial "header" . }}
+
+<div class="row">
+<div class="navbar navbar-default navbar-fixed-top">
+{{ partial "navbar" . }}
+</div>
+
+<div class="container">
+
+  <div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4">
+        {{ partial "menu" . }}
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-8">
+        <div>
+          <h1 id="main">Page not found</h1>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+    {{ partial "footer" . }}
+    </div>
+  </div>
+
+</div>
+</html>
+{{ partial "footer_js" . }}

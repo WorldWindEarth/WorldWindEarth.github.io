@@ -1,0 +1,47 @@
+baseURL = "http://worldwind.earth/"
+languageCode = "en-us"
+title = "WorldWind Earth"
+theme = "hugo-darkdoc-theme"
+metadataformat = "yaml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsOptions = ""
+
+[params]
+    # General information
+    author = "Bruce Schubert"
+    description = "Unofficial NASA WorldWind resources"
+    copyright = "MIT"
+
+    #demo website
+    demo_site = "http://explorer.worldwind.earth"
+
+    # Repository
+    provider = "GitHub"
+    repo_url = "https://github.com/NASAWorldWindResearch/WorldWindExplorer"
+    repo_id = "WorldWindExplorer"
+
+    version = "0.2.0"
+    favicon = ""
+
+    permalink = "#"
+
+[social]
+    github  = "NASAWorldWindResearch"
+    profile_url = "https://github.com/emxsys"
+
+[[menu.main]]
+    name   = "User Guide"
+    URL    = "explorer/user/"
+    weight = 10
+
+[[menu.main]]
+    name   = "Developer Guide"
+    URL    = "explorer/dev/"
+    weight = 30
+
+[[menu.main]]
+    name   = "WorldWind"
+    URL    = "worldwind/"
+    weight = 30
+

@@ -1,0 +1,37 @@
+baseurl = "http://example.com/"
+title = "myproject"
+theme = "hugo-darkdoc-theme"
+metadataformat = "yaml"
+pygmentsUseClasses = true
+
+[params]
+	# General information
+	author = "My Name"
+	description = "a good description"
+	copyright = "Released under my prefered license"
+
+  #demo website
+  demo_site = "http://demo.example.com"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/mynamemyproject"
+	repo_id = "myproject"
+
+	version = "1.0.0"
+	favicon = ""
+
+	permalink = "#"
+
+[social]
+	github  = "myname"
+
+[[menu.main]]
+	name   = "Demo"
+	url    = "demo/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+  weight = 10

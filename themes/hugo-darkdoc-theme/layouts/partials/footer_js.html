@@ -1,0 +1,18 @@
+<script>
+{{ if eq .Site.Params.provider "GitHub" }}
+  var api_url = 'https://api.github.com/repos/{{ .Site.Social.github }}/{{ .Site.Params.repo_id }}';
+{{ else }}
+  var api_url = '';
+{{ end }}
+</script>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="/js/application.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
