@@ -1,4 +1,5 @@
 baseURL = "http://worldwind.earth/"
+#baseURL = "http://localhost:8383/"
 languageCode = "en-us"
 title = "WorldWind Earth"
 theme = "hugo-darkdoc-theme"
