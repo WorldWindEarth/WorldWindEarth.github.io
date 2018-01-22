@@ -15,8 +15,8 @@ position.
 The __Location Widget__ is more than a simple compass. It displays spatial data 
 centric to the position of the crosshairs.
 
-{{< figure src="/images/LocationWidget.png" title="Location Widget" >}}
-The figure above shows Location Widget displaying coordinates, aspect, slope and solar azimuth.
+{{< figure src="/images/LocationWidget.png" title="Location Widget" 
+caption="The figure above shows Location Widget displaying coordinates, aspect, slope and solar azimuth.">}}
 
 ### Location
 - The latitude, longitude, ground elevation and percent of slope are displayed for the point under the crosshairs.

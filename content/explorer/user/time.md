@@ -13,14 +13,12 @@ updated. The clock can be set to your computer's time, or you can set it to an
 arbitrary time, or it can be set to a temporal input, like a time-series layer.
 
 ## Time Display
-
 The __Time Widget__ is not just a clock. It displays temporal data relative to 
 the position of the crosshairs on the globe. As you pan the globe, the widget
 updates the time values for the current location under the crosshairs.
 
-{{< figure src="/images/TimeWidget.png" title="Time Widget" >}}
-The figure above shows the Time Widget displaying clock time, time zone offset,
-local solar hour, and sunrise and sunset.
+{{< figure src="/images/TimeWidget.png" title="Time Widget" 
+caption="The figure above shows the Time Widget displaying clock time, time zone offset, local solar hour, and sunrise and sunset." >}}
 
 ### Date/Time
 - The application's date and time and time zone are displayed in the body of the widget
