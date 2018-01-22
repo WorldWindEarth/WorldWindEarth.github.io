@@ -1,7 +1,7 @@
 baseURL = "http://worldwind.earth/"
 #baseURL = "http://localhost:8383/"
 languageCode = "en-us"
-title = "WorldWind Earth"
+title = "WorldWind Explorer Project"
 theme = "hugo-darkdoc-custom"
 metadataformat = "yaml"
 pygmentsUseClasses = true

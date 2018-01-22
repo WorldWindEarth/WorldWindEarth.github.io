@@ -5,20 +5,21 @@ type: index
 ---
 
 # WorldWind Explorer Project
-An HTML5/JavaScript geo-browser built from the NASA WebWorldWind SDK using the Knockout and Bootstrap libraries.
+The __Explorer__ is an HTML5/JavaScript geo-browser built from the [NASA Web WorldWind SDK](https://worldwind.arc.nasa.gov/web)  
+using the Knockout and Bootstrap libraries. It is implemented as a single-page web
+application (SPA) using JQuery to dynamically add content.
 
 ## Overview
-The NASA WorldWind Explorer is a geospatial web 
-application for visualizing the earth. It uses NASA's Web WorldWind JavaScript SDK
-to display a 3D globe with terrain and imagery as well as 2D maps.
-It displays the sunrise and sunset times and solar angles for any 
-point on the earth. It shows the terrain's aspect and slope for any 
+The WorldWind Explorer is a geospatial web application for visualizing the earth. 
+It uses NASA's Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
+imagery as well as 2D maps. It displays the sunrise and sunset times and solar angles
+for any point on the earth. It shows the terrain's aspect and slope for any 
 location. It features user-defined markers and point weather forecasts.
 It has a search feature to find places.
 
 ### Features
 
-- Preconfigured imagery and map layers
+- Pre-configured imagery and map layers
 - Ability to add external WMS map servers for additional imagery
 - Layers can be sorted and opacity can be adjusted
 - A day/night and atmosphere layer for realistic visual effects
@@ -36,40 +37,34 @@ It has a search feature to find places.
 - Mobile/responsive layout
 
 ### Objectives
-- Be a useful web application in its own right
-- Be an example of a NASA WebWorldWind SDK base project that is easy to fork and customize.
+- [x] Be a useful web application in its own right
+- [x] Provide an application framework that is easy to fork and customize
+- [ ] Showcase NASA Web WorldWind SDK features and technologies
 
-### Open Source Credits
-- NASA WorldWind
-- Knockout
-- Bootstrap
-- JQuery
-- Dragula
-- SplitJS
-- Vis
-- Moment
+## Feedback
+Please report issues, feature requests and questions in the Explorer's [Issue Tracker on GitHub](https://github.com/NASAWorldWindResearch/WorldWindExplorer/issues).
 
-### Important Links
-- Live Demo: http://explorer.worldwind.earth
+If you are a developer, pull requests are welcomed.
+
+## Open Source Credits
+The Explorer uses the following open source libraries and technologies:
+
+- [NASA WorldWind](https://worldwind.arc.nasa.gov) provides the 3D virtual globe
+- [Knockout](http://knockoutjs.com) provides the Model-View-View Model (MVVM) architecture
+- [Bootstrap](https://getbootstrap.com/docs/3.3/) provides the responsive styling
+- [JQuery](https://jquery.com/) is used to dynamically load DOM view fragments
+- [JQuery UI](https://jqueryui.com/) adds some UI elements
+- [Dragula](https://github.com/bevacqua/dragula) adds drag-n-drop support
+- [SplitJS](https://nathancahill.github.io/Split.js/) adds window splitters to the main layout
+- [Vis](http://visjs.org/) provides data visualizations
+- [Moment](https://momentjs.com/) provides date/time parsing and manipulation
+- [RequireJS](http://requirejs.org/) is a JavaScript file and module loader used improve the speed and quality of the code.
+
+## Important Links
+- Explorer _Live_: http://explorer.worldwind.earth
 - Explorer project: https://github.com/NASAWorldWindResearch/WorldWindExplorer
 - NASA WorldWind website: https://worldwind.arc.nasa.gov
 - NASA Web WorldWind SDK on GitHub: https://github.com/NASAWorldWind/WebWorldWind
-
----
-
-## Usage Instructions
-
-### Time Widget
-- The application's date and time, are displayed in the body of the widget. These values are controlled by the time slider.
-- The sun icon that orbits the dial indicates the local solar hour angle. Solar noon is at the top of the dial, and midnight is at the bottom. When the sun icon is at the top of the dial, then the real sun is at its zenith. To see it in action, either move the time slider, or zoom out on the globe and move the crosshairs in an easterly or westerly direction. Note that the sun icon turns dark during nighttime hours.
-- The sunrise and sunset markers depict the solar hour angles for for sunrise and sunset and indicate the amount of sunlight received. They are relative to the application date/time and the geographic position. To see them in action, zoom out on the globe and then pan north and south to the poles, or rapidly advance the time slider.
-
-### Location Widget
-- The latitude, longitude and ground elevation are displayed for the point under the crosshairs.
-- The compass needle and compass rose rotate with your view of the globe and always point to true North.
-- The sky/ground background is an inclinometer that rotates to display the slope of the terrain under the crosshairs. To see it in action, zoom in on the globe to see some elevation and then move the crosshairs across the terrain.
-- The red diamond icon that orbits the compass indicates the aspect of the terrain under the crosshairs. Its position is relative to the compass points. To see it in action, zoom in on the globe to see a ridgeline and then move the crosshairs back and forth across the ridge.
-- The sun icon that orbits the compass indicates the solar azimuth angle. Its position is relative to compass points. To see it in action, either move the time slider, or zoom out on the globe and move the crosshairs in an easterly or westerly direction. When the sun icon and aspect icon are coincident then the maximum solar radiation is received by the terrain at that point. Note that the sun icon turns dark during nighttime hours.
 
 ---
 

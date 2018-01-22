@@ -7,6 +7,10 @@ menu:
     identifier: /explorer/dev/concepts
     weight: 10
 ---
+## Use Cases
+
+{{< figure src="/images/dev/HighLevelUseCases.png" title="High Level Use Case Diagram" >}}
+
 
 ## Design Concepts
 
