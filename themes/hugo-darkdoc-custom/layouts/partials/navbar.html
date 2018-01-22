@@ -10,21 +10,23 @@
   <div class="navbar-collapse collapse" id="navbar-main">
 
     <ul class="nav navbar-nav navbar-right">
+      {{ with .Site.Params.demo_site }}
+      <li>
+        <a href="{{ . }}">Explorer</a>
+      </li>
+      {{ end }}
+
       <li>
       <a href="{{ .Site.Params.repo_url }}/releases/latest">Download</a>
       </li>
-      {{ with .Site.Params.demo_site }}
-      <li>
-        <a href="{{ . }}">Demo</a>
-      </li>
-      {{ end }}
       <li>
         <a href="{{ .Site.Params.repo_url }}/stargazers" target="_blank" title="Stargazers" data-action="star">
           <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Stars
           <span id="star_count">&ndash;</span>
         </a>
       </li>
-      <li><a href="https://github.com/{{ .Site.Social.github }}/{{.Site.Title}}">Github</a></li>
+      <!--<li><a href="https://github.com/{{ .Site.Social.github }}/{{.Site.Title}}">Github</a></li>-->
+      <li><a href="{{ .Site.Params.repo_url }}">Github</a></li>
     </ul>
   </div>
 </div>

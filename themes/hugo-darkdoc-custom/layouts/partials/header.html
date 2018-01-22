@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"  {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    {{ .Hugo.Generator }}
+
+    {{ with .Site.Params.description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    {{.Hugo.Generator}}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with .Site.Title }}<meta property="og:title" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.logo }}<meta property="og:image" content="{{ $.Site.BaseURL }}{{ . }}">{{ end }}
+    {{ with .Site.Title }}<meta name="apple-mobile-web-app-title" content="{{ . }}">{{ end }}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
+    <link rel="icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
+
+    {{ with .RSSLink }}
+    <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  </head>
+  <body>

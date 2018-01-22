@@ -32,7 +32,7 @@ function eventWindowLoaded() {
 }
 ```
 
-{{< highlight html >}}
+```html
 <!DOCTYPE html>
 <!-- This is a very simple example of using Web WorldWind. -->
 <html>
@@ -70,5 +70,5 @@ function eventWindowLoaded() {
 </script>
 </body>
 </html>
-{{< / highlight >}}
+```
 
