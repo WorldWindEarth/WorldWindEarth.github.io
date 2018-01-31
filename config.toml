@@ -1,7 +1,7 @@
 baseURL = "http://worldwind.earth/"
 #baseURL = "http://localhost:8383/"
 languageCode = "en-us"
-title = "WorldWind Explorer Project"
+title = "WorldWind Earth"
 theme = "hugo-darkdoc-custom"
 metadataformat = "yaml"
 pygmentsUseClasses = true
@@ -11,7 +11,7 @@ pygmentsCodefences = true
     # General information
     author = "Bruce Schubert"
     author_url = "https://github.com/emxsys"
-    description = "Unofficial NASA WorldWind resources"
+    description = "WorldWind Explorer documentation and unofficial NASA WorldWind resources"
     copyright = "MIT"
 
     #demo website

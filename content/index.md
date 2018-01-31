@@ -3,8 +3,18 @@ date: 2016-04-20T10:21:05+02:00
 title: index
 type: index
 ---
+# WorldWind Earth
+{{< gallery image="banner.jpg" title="Mt. Rainier" alt="Picture of Mount Rainier" >}}
+{{< gallery image="sunset.jpg" addclass="hidden" >}}
+{{< gallery image="screenshot1.jpg" addclass="hidden" >}}
+{{< gallery image="screenshot2.jpg" addclass="hidden" >}}
+{{< gallery image="screenshot3.jpg" addclass="hidden" >}}
+{{< gallery image="screenshot4.jpg" addclass="hidden" >}}
 
-# WorldWind Explorer Project
+This site is the home for  _WorldWind Explorer_ webapp documentation and 
+other NASA WorldWind programming resources.
+
+## WorldWind Explorer Project
 The __Explorer__ is an HTML5/JavaScript geo-browser built from the [NASA Web WorldWind SDK](https://worldwind.arc.nasa.gov/web)  
 using the Knockout and Bootstrap libraries. It is implemented as a single-page web
 application (SPA) using JQuery to dynamically add content.
@@ -32,14 +42,14 @@ It has a search feature to find places.
 - Time widget that shows current time at the crosshairs plus sunrise, sunset and solar hour
 - Location widget that shows the coordinates and elevation at the crosshairs, plus the slope and aspect of the terrain and the solar azimuth angle
 - Collapsible layer manager and output/info panels
-- A time slider and controls to advance and retard the time used for day/night dispaly and weather forecasts 
+- A time slider and controls to advance and retard the time used for day/night display and weather forecasts 
 - Setting are saved between sessions
 - Mobile/responsive layout
 
 ### Objectives
 - [x] Be a useful web application in its own right
 - [x] Provide an application framework that is easy to fork and customize
-- [ ] Showcase NASA Web WorldWind SDK features and technologies
+- [x] Showcase NASA Web WorldWind SDK features and technologies
 
 ## Feedback
 Please report issues, feature requests and questions in the Explorer's [Issue Tracker on GitHub](https://github.com/NASAWorldWindResearch/WorldWindExplorer/issues).
@@ -66,10 +76,3 @@ The Explorer uses the following open source libraries and technologies:
 - NASA WorldWind website: https://worldwind.arc.nasa.gov
 - NASA Web WorldWind SDK on GitHub: https://github.com/NASAWorldWind/WebWorldWind
 
----
-
-## Developer Notes
-
-### Debugging
-- In `js/main.js` set the `window.DEBUG` flag to true to put the app in debug mode.
-- The `window.DEBUG` flag controls whether to use the minified or debug versions of libraries.
