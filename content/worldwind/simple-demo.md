@@ -1,16 +1,16 @@
 ---
 date: 2018-01-22
-title: NASA Web WorldWind SDK
+title: Simple Demo
+draft: true
 menu:
   main:
     parent: "WorldWind"
-    identifier: worldwind/webworldwind
+    identifier: worldwind/demo
     weight: 10
 ---
-Web WorldWind is a 3D virtual globe API for HTML5 and JavaScript. It provides
-the globe in the Explorer web application. 
 
-## NASA Resources
 
-- [WebWorldWind SDK home page](https://worldwind.arc.nasa.gov/web)
-- [WebWorldWind GitHub project](https://github.com/NASAWorldWind/WebWorldWind)
+{{< iframe url="http://jsbin.com/nomafey/embed?output" >}}
+
+This app is hosted in [JSBin](http://jsbin.com), the [Collaborative JavaScript Debugging App](https://github.com/jsbin/jsbin). 
+
