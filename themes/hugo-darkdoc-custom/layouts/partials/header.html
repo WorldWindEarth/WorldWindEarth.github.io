@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8"  {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+          <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     {{ .Hugo.Generator }}
 
     {{ with .Site.Params.description }}
@@ -29,11 +29,11 @@
     <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
     <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
-    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css"/>    
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/pygments.css">
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-  </head>
-  <body>
+</head>
+<body>
