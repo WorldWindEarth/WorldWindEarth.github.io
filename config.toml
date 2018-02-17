@@ -32,16 +32,19 @@ pygmentsCodefences = true
 
 [[menu.main]]
     name   = "User Guide"
+    identifier = "user-guide"
     URL    = "explorer/user/"
     weight = 10
 
 [[menu.main]]
     name   = "Developer Guide"
+    identifier = "dev-guide"
     URL    = "explorer/dev/"
     weight = 30
 
 [[menu.main]]
     name   = "WorldWind"
+    identifier = "worldwind"
     URL    = "worldwind/"
     weight = 30
 
