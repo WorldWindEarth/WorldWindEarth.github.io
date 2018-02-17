@@ -1,18 +1,26 @@
 {{ $currentNode := . }}
 {{ $isCurrent := eq .Permalink (.URL | absURL | printf "%s") }}
-<div class="list-group table-of-contents">
-<!--
-  <a class="list-group-item" href="/news"><b>News</b></a>
--->
-  {{ range .Site.Menus.main.ByWeight }}
-    <a class="list-group-item" href=#><b>{{ .Name }}</b></a>
-    {{ if .HasChildren }}
-    <div class="list-group">
-      {{ range .Children }}
-      <a class="list-group-item" href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
+<div class="panel-group" id="accordian" >
+    {{ range .Site.Menus.main.ByWeight }}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordian" href="#collapse-{{ .Identifier }}">
+                    {{ .Name }}
+                </a>
+            </h4>            
+        </div>
+        <div id="collapse-{{ .Identifier }}" class="panel-collapse collapse {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}in{{ end }}">
+            <div class="panel-body">
+                {{ if .HasChildren }}
+                <div class="list-group">
+                    {{ range .Children }}
+                    <a class="list-group-item" href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+                {{end}}
+            </div>
+        </div>
     </div>
     {{end}}
-  {{end}}
-
 </div>
