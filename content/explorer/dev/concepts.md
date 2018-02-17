@@ -3,7 +3,7 @@ date: 2016-04-20T10:13:26+02:00
 title: Concepts
 menu:
   main:
-    parent: "Developer Guide"
+    parent: dev-guide
     identifier: /explorer/dev/concepts
     weight: 10
 ---

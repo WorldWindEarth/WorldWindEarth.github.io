@@ -4,7 +4,7 @@ title: Simple Demo
 draft: true
 menu:
   main:
-    parent: "WorldWind"
+    parent: worldwind
     identifier: worldwind/demo
     weight: 10
 ---

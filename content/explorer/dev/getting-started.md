@@ -3,7 +3,7 @@ date: 2016-04-20T10:13:26+02:00
 title: Getting Started
 menu:
   main:
-    parent: "Developer Guide"
+    parent: dev-guide
     identifier: explorer/dev/getting-started
     weight: 10
 ---

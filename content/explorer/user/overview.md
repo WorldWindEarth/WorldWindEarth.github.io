@@ -4,7 +4,7 @@ date: 2018-01-22T11:34:58-08:00
 draft: false
 menu:
   main:
-    parent: User Guide
+    parent: user-guide
     identifier: /explorer/user/overview
     weight: 1
 ---

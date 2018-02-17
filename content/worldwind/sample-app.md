@@ -3,7 +3,7 @@ date: 2018-01-22
 title: Sample Application
 menu:
   main:
-    parent: "WorldWind"
+    parent: worldwind
     identifier: worldwind/sample-app
     weight: 10
 ---

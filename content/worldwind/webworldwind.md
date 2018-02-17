@@ -3,7 +3,7 @@ date: 2018-01-22
 title: NASA Web WorldWind SDK
 menu:
   main:
-    parent: "WorldWind"
+    parent: worldwind
     identifier: worldwind/webworldwind
     weight: 10
 ---

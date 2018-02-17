@@ -3,7 +3,7 @@ title: "Time"
 date: 2018-01-19T05:25:20-08:00
 menu:
   main:
-    parent: User Guide
+    parent: user-guide
     identifier: /explorer/user/time
     weight: 10
 ---
