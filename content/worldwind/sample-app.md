@@ -8,12 +8,14 @@ menu:
     weight: 10
 ---
 Here is a small, yet feature-rich Web WorldWind sample application. The JavaScript/HTML/CSS
-code can be viewed and _edited_ right here on this web page courtesy of [JSBin](http://jsbin.com).
-Click the JSBin menu headings to show/hide the code editor(s).
+code can be viewed and _edited_ right here on this web page courtesy of [JS Bin](http://jsbin.com).
+Click the JS Bin menu headings to show/hide the code editor(s). 
 
 {{< iframe url="http://jsbin.com/nomafey/embed?output" >}}
 
-This app is hosted in [JSBin](http://jsbin.com), the [Collaborative JavaScript Debugging App](https://github.com/jsbin/jsbin). 
+This app is hosted in [JS Bin](http://jsbin.com), the [Collaborative JavaScript Debugging App](https://github.com/jsbin/jsbin). 
+
+The complete source for this example can be viewed, downloaded or forked [on GitHub](https://gist.github.com/emxsys/85f0c07ac9caf494265392c6faed3eaa).
 
 
 ### Overview
@@ -22,7 +24,7 @@ The concepts used here are the same ones employed in the actual [_Explorer_](htt
 #### Libraries
 This web app uses the [Knockout](http://knockoutjs.com) library to manage the 
 Model-View-View Model (MVVM) architecture. The [Bootstrap](http://getbootstrap.com)
-library is used for the web layout and presentation. And, of course, the [WorldWind](https://worldwind.arc.nasa.gov/web)
+library is used for the web layout and presentation. And, of course, the [WebWorldWind](https://worldwind.arc.nasa.gov/web)
 library manages the _globe_ view. The [JQuery](http://jquery.com) library is used lightly for some
 event handing in the menus.
 

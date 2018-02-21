@@ -1,5 +1,5 @@
 ---
-date: 2016-04-20T10:21:05+02:00
+date: 2018-02-17
 title: index
 type: index
 ---
@@ -12,16 +12,16 @@ type: index
 {{< gallery image="screenshot4.jpg" addclass="hidden" >}}
 
 This site is the home for  _WorldWind Explorer_ webapp documentation and 
-other NASA WorldWind programming resources.
+other ESA-NASA _Web WorldWind_ programming resources.
 
 ## WorldWind Explorer Project
-The __Explorer__ is an HTML5/JavaScript geo-browser built from the [NASA Web WorldWind SDK](https://worldwind.arc.nasa.gov/web)  
-using the Knockout and Bootstrap libraries. It is implemented as a single-page web
-application (SPA) using JQuery to dynamically add content.
+The __Explorer__ is an HTML5/JavaScript geo-browser 
+_[powered by ESA-NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
+It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
 
 ## Overview
-The WorldWind Explorer is a geospatial web application for visualizing the earth. 
-It uses NASA's Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
+The WorldWind Explorer is a geospatial web application for visualizing Earth. 
+It uses ESA-NASA's Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
 imagery as well as 2D maps. It displays the sunrise and sunset times and solar angles
 for any point on the earth. It shows the terrain's aspect and slope for any 
 location. It features user-defined markers and point weather forecasts.
@@ -46,20 +46,16 @@ It has a search feature to find places.
 - Setting are saved between sessions
 - Mobile/responsive layout
 
-### Objectives
-- [x] Be a useful web application in its own right
-- [x] Provide an application framework that is easy to fork and customize
-- [x] Showcase NASA Web WorldWind SDK features and technologies
-
 ## Feedback
-Please report issues, feature requests and questions in the Explorer's [Issue Tracker on GitHub](https://github.com/NASAWorldWindResearch/WorldWindExplorer/issues).
+Please report issues, feature requests and questions in the Explorer's 
+[Issue Tracker on GitHub](https://github.com/NASAWorldWindResearch/WorldWindExplorer/issues).
 
 If you are a developer, pull requests are welcomed.
 
 ## Open Source Credits
 The Explorer uses the following open source libraries and technologies:
 
-- [NASA WorldWind](https://worldwind.arc.nasa.gov) provides the 3D virtual globe
+- [ESA-NASA WorldWind](https://worldwind.arc.nasa.gov/web) provides the 3D virtual globe
 - [Knockout](http://knockoutjs.com) provides the Model-View-View Model (MVVM) architecture
 - [Bootstrap](https://getbootstrap.com/docs/3.3/) provides the responsive styling
 - [JQuery](https://jquery.com/) is used to dynamically load DOM view fragments
@@ -67,12 +63,12 @@ The Explorer uses the following open source libraries and technologies:
 - [Dragula](https://github.com/bevacqua/dragula) adds drag-n-drop support
 - [SplitJS](https://nathancahill.github.io/Split.js/) adds window splitters to the main layout
 - [Vis](http://visjs.org/) provides data visualizations
+- [milsymbol](https://spatialillusions.com/milsymbol/index.html) military symbology made easy
 - [Moment](https://momentjs.com/) provides date/time parsing and manipulation
 - [RequireJS](http://requirejs.org/) is a JavaScript file and module loader used improve the speed and quality of the code.
 
-## Important Links
-- Explorer _Live_: http://explorer.worldwind.earth
-- Explorer project: https://github.com/NASAWorldWindResearch/WorldWindExplorer
-- NASA WorldWind website: https://worldwind.arc.nasa.gov
-- NASA Web WorldWind SDK on GitHub: https://github.com/NASAWorldWind/WebWorldWind
 
+## About
+_WorldWind.Earth and the Explorer are personal projects of [Bruce Schubert](https://github.com/emxsys). 
+I am a software engineer on the [NASA WorldWind](https://worldwind.arc.nasa.gov) 
+team, but these projects are built and maintained in my spare time._

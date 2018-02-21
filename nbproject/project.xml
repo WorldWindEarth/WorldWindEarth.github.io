@@ -5,5 +5,12 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>worldwind.earth</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>HTML</word>
+            <word>JavaScript</word>
+            <word>SDK</word>
+            <word>WebWorldWind</word>
+            <word>WorldWind</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
