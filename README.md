@@ -1,14 +1,14 @@
-This site is the home for the _WorldWind Explorer_ webapp documentation and 
-other ESA_Web WorldWind_ programming resources.
+This site is the home for the _WorldWind Explorer_ web app documentation and 
+other _NASA Web WorldWind_ programming resources.
 
 ## WorldWind Explorer Project
 The __Explorer__ is an HTML5/JavaScript geo-browser 
-_[powered by ESA-NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
+_[powered by NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
 
 ## Overview
 The WorldWind Explorer is a geospatial web application for visualizing Earth. 
-It uses ESA-NASA's Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
+It uses the Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
 imagery as well as 2D maps. It displays the sunrise and sunset times and solar angles
 for any point on the earth. It shows the terrain's aspect and slope for any 
 location. It features user-defined markers and point weather forecasts.
@@ -42,7 +42,7 @@ If you are a developer, pull requests are welcomed.
 ## Open Source Credits
 The Explorer uses the following open source libraries and technologies:
 
-- [ESA-NASA WorldWind](https://worldwind.arc.nasa.gov/web) provides the 3D virtual globe
+- [Web WorldWind](https://worldwind.arc.nasa.gov/web) provides the 3D virtual globe
 - [Knockout](http://knockoutjs.com) provides the Model-View-View Model (MVVM) architecture
 - [Bootstrap](https://getbootstrap.com/docs/3.3/) provides the responsive styling
 - [JQuery](https://jquery.com/) is used to dynamically load DOM view fragments
