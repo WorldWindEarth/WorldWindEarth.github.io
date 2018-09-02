@@ -38,10 +38,7 @@ It has a search feature to find places.
 - Mobile/responsive layout
 
 ## Guides
-### User Guide
 
-### Developers Guide
-[Getting Started](./getting-started.html)
 
 ## Feedback
 Please report issues, feature requests and questions in the Explorer's 
@@ -64,10 +61,11 @@ The Explorer uses the following open source libraries and technologies:
 - [Moment](https://momentjs.com/) provides date/time parsing and manipulation
 - [RequireJS](http://requirejs.org/) is a JavaScript file and module loader used improve the speed and quality of the code.
 
-# WorldWind
-[Simple Demo](./simple-demo.html)
-[Sample App](./sample-app.html)
-[Web WorldWind](./webworldwind.html)
+# WorldWind Resources
+
+* [Getting Started](./getting-started.html)
+* [Simple Demo](./simple-demo.html)
+* [Sample App](./sample-app.html)
 
 
 # About
