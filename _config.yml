@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title: WorldWind Earth
 description: WorldWind Explorer user and developer guides, and other Web WorldWind programming resources
-site.google_analytics: UA-10395973-13
-site.show_downloads: true
-explorer.github.zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/develop.zip
+google_analytics: UA-10395973-13
+show_downloads: true
+github:
+  zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/develop.zip
