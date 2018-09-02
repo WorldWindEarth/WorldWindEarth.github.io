@@ -4,7 +4,8 @@ description: The Explorer, user and developer guides, and WorldWind programming 
 google_analytics: UA-10395973-13
 show_downloads: true
 github:
-  zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/develop.zip
+  zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/v0.3.0.zip
+  tar_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/v0.3.0.tar.gz
 plugins:
    - jekyll-mentions
    - jemoji
