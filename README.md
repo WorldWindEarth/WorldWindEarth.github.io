@@ -6,6 +6,9 @@ The __Explorer__ is an HTML5/JavaScript geo-browser
 _[powered by NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
 
+* TOC
+{:toc}
+
 ## Overview
 The WorldWind Explorer is a geospatial web application for visualizing Earth. 
 It uses the Web WorldWind JavaScript SDK to display a 3D globe with terrain and 
