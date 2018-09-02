@@ -4,7 +4,7 @@ other _NASA Web WorldWind_ programming resources.
 * TOC
 {:toc}
 
-# WorldWind Explorer Project
+# Explorer Project
 The __Explorer__ is an HTML5/JavaScript geo-browser 
 _[powered by NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
@@ -37,6 +37,9 @@ It has a search feature to find places.
 - Setting are saved between sessions
 - Mobile/responsive layout
 
+## Guides
+### [Getting Started](./getting-started.html)
+
 ## Feedback
 Please report issues, feature requests and questions in the Explorer's 
 [Issue Tracker on GitHub](https://github.com/NASAWorldWindResearch/WorldWindExplorer/issues).
@@ -58,6 +61,7 @@ The Explorer uses the following open source libraries and technologies:
 - [Moment](https://momentjs.com/) provides date/time parsing and manipulation
 - [RequireJS](http://requirejs.org/) is a JavaScript file and module loader used improve the speed and quality of the code.
 
+# WorldWind
 
 # About
 _WorldWind.Earth and the Explorer are personal projects of [Bruce Schubert](https://github.com/emxsys). 
