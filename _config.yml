@@ -5,3 +5,9 @@ google_analytics: UA-10395973-13
 show_downloads: true
 github:
   zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/develop.zip
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
