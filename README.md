@@ -1,11 +1,11 @@
-This site is the home for the _WorldWind Explorer_ web app documentation and 
+This site is the home for the [WorldWind Explorer](https://worldwind.earth/explorer) web app documentation and 
 other _NASA Web WorldWind_ programming resources.
 
 * TOC
 {:toc}
 
 # Explorer Project
-The __Explorer__ is an HTML5/JavaScript geo-browser 
+The [__Explorer__](https://worldwind.earth/explorer) is an HTML5/JavaScript geo-browser 
 _[powered by NASA Web WorldWind](https://worldwind.arc.nasa.gov/web)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
 
