@@ -104,11 +104,9 @@ The ramifications of the suspension are severe, including:
 
 - **Caution:** Working web applications that use the built-in _Blue Marble_ and _Landsat_ imagery from https://worldwind25.arc.nasa.gov/wms will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
-### Mitigations
+### Alternatives to using worldwind.js at files.worldwind.arc.nasa.gov
 
-#### Alternatives to worldwind.js at files.worldwind.arc.nasa.gov
-
-##### Use the WorldWindJS library
+#### Use the WorldWindJS library
 **For npm based applications:** change the `@nasaworldwind/worldwind` dependency to `worldwindjs`. For example:
 
 _Original package.json_
@@ -124,20 +122,31 @@ _New package.json_
   },
 ```
 
-**For scripts:** change the source from files.worldwind to a worldwindjs CDN:
+**For scripts:** change the src from _files.worldwind...worldwind.js_ to WorldWindJS' npm-based CDN at _unpkg.com_:
 
 _Old script element, using files.worldwind.arc.nasa.gov_
 ```
 <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
 ```
-_New script element, using worldwindjs from a CDN_
+_New script element, using WorldWindJS at unpkg.com_
 ```
 <script src="https://unpkg.com/worldwindjs@1.7.0/build/dist/worldwind.min.js"></script>
 ```
 
-##### Use a CDN
+#### Use NASA's worldwind.js from a CDN
 
-##### Use the WebWorldWind source code
+Change script element's src from _files.worldwind_ to the npm-based CDN at _unpkg.com_ :
+
+_Old script element, using files.worldwind.arc.nasa.gov_
+```
+<script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
+```
+_New script element, using unpkg.com_
+```
+<script src="https://unpkg.com/@nasaworldwind/worldwind@0.9.0/build/dist/worldwind.min.js"></script>
+```
+
+#### Use the WebWorldWind source code
 
 
 #### Alternatives to using WorldWind Elevations
