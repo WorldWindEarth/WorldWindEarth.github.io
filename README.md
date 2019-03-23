@@ -29,14 +29,14 @@ It has a search feature to find places.
 
 # WorldWindJS Library
 
-[__WorldWindJS__](https://github.com/emxsys/worldwindjs) is a fork of the popular [Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind)
+[__WorldWindJS__](https://github.com/WorldWindEarth/worldwindjs) is a fork of the popular [Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind)
 library from NASA (with contributions from ESA). This fork provides a release channel for builds based on the latest fixes
 and features from the WebWorldWind develop branch integrated with several enhancements from the 
 WorldWind community. 
 
-WorldWindJS releases can be downloaded from [GitHub](https://github.com/emxsys/worldwindjs/releases) 
+WorldWindJS releases can be downloaded from [GitHub](https://github.com/WorldWindEarth/worldwindjs/releases) 
 or from [npm](https://www.npmjs.com/package/worldwindjs).  Of course, you can fork or clone this
-project and build the library yourself using the instructions in the [README](https://github.com/emxsys/worldwindjs/blob/master/README.md).
+project and build the library yourself using the instructions in the [README](https://github.com/WorldWindEarth/worldwindjs/blob/master/README.md).
 
 ## Examples
 
@@ -47,7 +47,7 @@ project and build the library yourself using the instructions in the [README](ht
 
 Do you want to start developing right away? 
 
-- Browse the source code for the [web-app-template](https://github.com/emxsys/worldwindjs/tree/develop/apps/web-app-template)
+- Browse the source code for the [web-app-template](https://github.com/WorldWindEarth/worldwindjs/tree/develop/apps/web-app-template)
 - View/edit a completed app in [JSFiddle](https://jsfiddle.net/emxsys/e0a2z1km/)
 
 Are you interested in building a WorldWindJS geo-browser or embedding a globe in a web page using [React](https://reactjs.org)? 
@@ -57,9 +57,11 @@ Checkout these resources:
 - [worldwind-react-globe-bs4](https://github.com/emxsys/worldwind-react-app) - Bootstrap UI components for the Globe component
 - [worldwind-react-app](https://github.com/emxsys/worldwind-react-app) - An example geo-browser web app 
 
+---
+
 # How to Build a WorldWindJS Web App
 
-This tutorial shows you how to build a [WorldWindJS](https://github.com/emxsys/worldwindjs) web app
+This tutorial shows you how to build a [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) web app
 using [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and 
 [Knockout](http://knockoutjs.com/index.html). You will build a feature-rich, responsive, 
 customizable web app ready to be deployed to your site. This tutorial demonstrates:
