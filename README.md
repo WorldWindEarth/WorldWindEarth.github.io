@@ -1,7 +1,7 @@
 This site is the home for the [WorldWind Explorer](https://worldwind.earth/explorer) web app and 
 other _WorldWind_ programming resources.
 
-### Table of Contents
+**Table of Contents**
 * TOC
 {:toc}
 
