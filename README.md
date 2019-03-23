@@ -153,14 +153,14 @@ _New script element, using unpkg.com_
 #### Use the WebWorldWind source code
 
 
-#### Alternatives to using WorldWind Elevations
+### Alternatives to using WorldWind Elevations
 
-##### Use the WorldWindJS library
+#### Use the WorldWindJS library
 
 
-#### Alternatives to using WorldWind Imagery
+### Alternatives to using WorldWind Imagery
 
-##### Use the WorldWindJS library
+#### Use the WorldWindJS library
 
 
 ## WorldWindJava 
