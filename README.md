@@ -21,9 +21,9 @@ location. It features user-defined markers and point weather forecasts.
 It has a search feature to find places.
 
 ## Resources
-- [User and Developer Guides](https://worldwind.earth/explorer/wiki)
-- [Issue Tracker](https://worldwind.earth/explorer/issues)
-- [Source code repository](https://github.com/WorldWindEarth/explorer)
+- [Explorer User and Developer Guides](https://worldwind.earth/explorer/wiki)
+- [Explorer Issue Tracker](https://github.com/WorldWindEarth/explorer/issues)
+- [Explorer Source Code](https://github.com/WorldWindEarth/explorer)
 
 If you are a developer, pull requests are welcomed.
 
