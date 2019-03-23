@@ -93,6 +93,6 @@ This is what we will build:
 
 
 # About
-_WorldWind.Earth and the Explorer are personal projects of [Bruce Schubert](https://github.com/emxsys). 
+_WorldWind.Earth, WorldWindJS and the Explorer are personal projects of [Bruce Schubert](https://github.com/emxsys). 
 I am a software engineer on the [NASA WorldWind](https://worldwind.arc.nasa.gov) 
 team, but these projects are built and maintained in my spare time._
