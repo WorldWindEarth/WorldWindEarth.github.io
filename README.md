@@ -104,7 +104,7 @@ The ramifications of the suspension are severe, including:
 
 - **Caution:** Working web applications that use the built-in _Blue Marble_ and _Landsat_ imagery from https://worldwind25.arc.nasa.gov/wms will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
-### Alternatives to using files.worldwind.arc.nasa.gov
+### Alternatives to files.worldwind.arc.nasa.gov
 
 #### Use the WorldWindJS library
 **For npm based applications:** change the `@nasaworldwind/worldwind` dependency to `worldwindjs`. For example:
