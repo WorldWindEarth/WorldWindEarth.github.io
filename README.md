@@ -96,9 +96,9 @@ The following NASA announcment was made March 8, 2019:
 ### Issues
 The ramifications of the suspension are severe, including:
 
-- **Critical** Web applications linked to "https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" will fail if the _files.worldwind.arc.nasa.gov/artifactory_ service is shutdown. The globe will not be displayed. Applications that use a local copy of _worldwind.js_ or _worldiwnd.min.js_ should continue to work, but image resources linked to "files.worldwind..." will not be displayed (e.g., globe background, view controls, compass, etc.).
-- **Severe** Working web applications that use the built-in elevation services at "https://worldwind26.arc.nasa.gov/elev" will display a smooth globe – 3D terrain visualizations will not work and all earth elevations will be zero. This will affect nearly every WorldWind-based web application.
-- **Caution** Working web applications that use the built-in Blue Marble and Landsat imagery from "https://worldwind25.arc.nasa.gov/wms" will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
+- **Critical:** Web applications linked to "https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" will fail if the _files.worldwind.arc.nasa.gov/artifactory_ service is shutdown. The globe will not be displayed. Applications that use a local copy of _worldwind.js_ or _worldiwnd.min.js_ should continue to work, but image resources linked to "files.worldwind..." will not be displayed (e.g., globe background, view controls, compass, etc.).
+- **Severe:** Working web applications that use the built-in elevation services at "https://worldwind26.arc.nasa.gov/elev" will display a smooth globe – 3D terrain visualizations will not work and all earth elevations will be zero. This will affect nearly every WorldWind-based web application.
+- **Caution:** Working web applications that use the built-in Blue Marble and Landsat imagery from "https://worldwind25.arc.nasa.gov/wms" will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
 ### Mitigations
 _Forthcomming_
