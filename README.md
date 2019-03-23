@@ -124,7 +124,7 @@ _New package.json_
   },
 ```
 
-**For scripts:** change the source to an npm-based CDN
+**For scripts:** change the source from files.worldwind to a worldwindjs CDN:
 
 _Old script element, using files.worldwind.arc.nasa.gov_
 ```
