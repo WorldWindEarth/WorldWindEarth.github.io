@@ -105,14 +105,49 @@ The ramifications of the suspension are severe, including:
 - **Caution:** Working web applications that use the built-in _Blue Marble_ and _Landsat_ imagery from https://worldwind25.arc.nasa.gov/wms will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
 ### Mitigations
-#### Alternatives to files.worldwind...worldwind.js 
 
-##### Use WorldWindJS
+#### Alternatives to worldwind.js at files.worldwind.arc.nasa.gov
+
+##### Use the WorldWindJS library
+**For npm based applications:** change the `@nasaworldwind/worldwind` dependency to `worldwindjs`. For example:
+
+_Original package.json_
+```
+  "dependencies": {
+    "@nasaworldwind/worldwind": "^0.9.0"
+  },
+```
+_New package.json_
+```
+  "dependencies": {
+    "worldwindjs": "^1.7.0"
+  },
+```
+
+**For scripts:** change the source to an npm-based CDN
+
+_Old script element, using files.worldwind.arc.nasa.gov_
+```
+<script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
+```
+_New script element, using worldwindjs from a CDN_
+```
+<script src="https://unpkg.com/worldwindjs@1.7.0/build/dist/worldwind.min.js"></script>
+```
 
 ##### Use a CDN
 
-##### Use your own copy of WorldWind
+##### Use the WebWorldWind source code
 
+
+#### Alternatives to using WorldWind Elevations
+
+##### Use the WorldWindJS library
+
+
+#### Alternatives to using WorldWind Imagery
+
+##### Use the WorldWindJS library
 
 
 ## WorldWindJava 
