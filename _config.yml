@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 title: WorldWind Earth
 description: Explorer app, user and developer guides, and WorldWind programming resources
 google_analytics: UA-10395973-13
-show_downloads: true
+show_downloads: false
 github:
   zip_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/v0.3.0.zip
   tar_url: https://github.com/WorldWindLabs/WorldWindExplorer/archive/v0.3.0.tar.gz
