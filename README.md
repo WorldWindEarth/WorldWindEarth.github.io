@@ -93,6 +93,8 @@ The following NASA announcment was made March 8, 2019:
 > All the WorldWind servers providing elevation and imagery will be unavailable. While you can still download the SDKs from GitHub, there will be no technical support. If you have questions and/or concerns, please feel free to email at: [worldwind-info@lists.nasa.gov](mailto:worldwind-info@lists.nasa.gov)
 
 ## WebWorldWind 
+Information for NASA Web WorldWind SDK based applications.
+
 ### Issues
 The ramifications of the suspension are severe, including:
 
@@ -103,11 +105,29 @@ The ramifications of the suspension are severe, including:
 - **Caution:** Working web applications that use the built-in _Blue Marble_ and _Landsat_ imagery from https://worldwind25.arc.nasa.gov/wms will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
 ### Mitigations
-_Forthcomming_
+#### Alternatives to files.worldwind...worldwind.js 
 
-# WorldWind Resources
+##### Use WorldWindJS
+
+##### Use a CDN
+
+##### Use your own copy of WorldWind
+
+
+
+## WorldWindJava 
+Information for NASA WorldWind Java SDK based applications.
+
+_TODO_
+
+## WorldWindAndroid 
+Information for NASA WorldWind Java SDK based applications.
+
+_TODO_
+
+--- 
 
 # About
-_WorldWind.Earth, WorldWindJS and the Explorer are personal projects of [Bruce Schubert](https://github.com/emxsys). 
+_[WorldWindEarth](https://github.com/WorldWindEarth/WorldWindEarth.github.io), [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) and the [Explorer](https://github.com/WorldWindEarth/explorer) are personal projects of [Bruce Schubert](https://github.com/emxsys). 
 I am a software engineer on the [NASA WorldWind](https://worldwind.arc.nasa.gov) 
 team, but these projects are built and maintained in my spare time._
