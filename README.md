@@ -7,7 +7,7 @@ other _WorldWind_ programming resources.
 
 ---
 
-# WorldWind Explorer
+# **WorldWind Explorer**
 The [__Explorer__](https://worldwind.earth/explorer) is an HTML5/JavaScript geo-browser 
 _[powered by WorldWindJS](https://emxsys.github.io/worldwindjs/)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
@@ -27,12 +27,12 @@ It has a search feature to find places.
 
 ---
 
-# WorldWindJS Library
+# **WorldWindJS Library**
 
 [__WorldWindJS__](https://github.com/WorldWindEarth/worldwindjs) is a fork of the popular [Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind)
 library from NASA (with contributions from ESA). This fork provides a release channel for builds based on the latest fixes
 and features from the WebWorldWind develop branch integrated with several enhancements from the 
-WorldWind community. 
+WorldWind community. WorldWindJS is a drop-in replacement for the NASA Web WorldWind library.
 
 WorldWindJS releases can be downloaded from [GitHub](https://github.com/WorldWindEarth/worldwindjs/releases) 
 or from [npm](https://www.npmjs.com/package/worldwindjs).  Of course, you can fork or clone this
@@ -59,7 +59,7 @@ Checkout these resources:
 
 ---
 
-# How to Build a WorldWindJS Web App
+# **How to Build a WorldWindJS Web App**
 
 This tutorial shows you how to build a [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) web app
 using [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and 
@@ -113,13 +113,13 @@ for using WorldWindJS.
 
 **For npm based applications:** change the `@nasaworldwind/worldwind` dependency to `worldwindjs`. For example:
 
-_Original package.json_
+_Example: Original package.json_
 ```
   "dependencies": {
     "@nasaworldwind/worldwind": "^0.9.0"
   },
 ```
-_New package.json_
+_Example: New package.json_
 ```
   "dependencies": {
     "worldwindjs": "^1.7.0"
@@ -128,11 +128,11 @@ _New package.json_
 
 **For scripts:** change the src from _files.worldwind...worldwind.js_ to WorldWindJS' npm-based CDN at _unpkg.com_:
 
-_Old script element, using files.worldwind.arc.nasa.gov_
+_Example: Old script element, using files.worldwind.arc.nasa.gov_
 ```
 <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
 ```
-_New script element, using WorldWindJS at unpkg.com_
+_Example: New script element, using WorldWindJS at unpkg.com_
 ```
 <script src="https://unpkg.com/worldwindjs@1.7.0/build/dist/worldwind.min.js"></script>
 ```
@@ -141,11 +141,11 @@ _New script element, using WorldWindJS at unpkg.com_
 
 Change script element's src from _files.worldwind_ to the npm-based CDN at _unpkg.com_ :
 
-_Old script element, using files.worldwind.arc.nasa.gov_
+_Example: Old script element, using files.worldwind.arc.nasa.gov_
 ```
 <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
 ```
-_New script element, using unpkg.com_
+_Example: New script element, using unpkg.com_
 ```
 <script src="https://unpkg.com/@nasaworldwind/worldwind@0.9.0/build/dist/worldwind.min.js"></script>
 ```
