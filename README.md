@@ -115,11 +115,11 @@ Information for NASA Web WorldWind SDK based applications.
 ### Issues
 The ramifications of the suspension are severe, including:
 
-- **Critical:** Web applications linked to https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js will fail if the _files.worldwind.arc.nasa.gov/artifactory_ service is shutdown. _The globe will not be displayed._ Applications that use a local copy of _worldwind.js_ or _worldiwnd.min.js_ should continue to work, but image resources linked to "files.worldwind..." will not be displayed (e.g., the globe background, view controls, compass, etc.).
+- **Critical:** Web applications linked to _https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js_ will fail if the _files.worldwind.arc.nasa.gov_ server is shutdown. ___The globe will not be displayed.___ Applications that use a local copy of _worldwind.js_ or _worldiwnd.min.js_ should continue to work, but image resources linked to "files.worldwind..." will not be displayed (e.g., the globe background, view controls, compass, etc.).
 
-- **Severe:** Working web applications that use the built-in elevation services at https://worldwind26.arc.nasa.gov/elev will display a smooth globe – 3D terrain visualizations will not work and all earth elevations will be zero. _This will affect nearly every WorldWind-based web application._
+- **Severe:** Working web applications that use the built-in elevation services at https://worldwind26.arc.nasa.gov/elev will display a smooth globe – ___3D terrain visualizations will not work and all earth elevations will be zero.___ This will affect nearly every WorldWind-based web application.
 
-- **Caution:** Working web applications that use the built-in _Blue Marble_ and _Landsat_ imagery from https://worldwind25.arc.nasa.gov/wms will no longer have access to these base map layers. Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
+- **Caution:** Working web applications that use the built-in imagery from https://worldwind25.arc.nasa.gov/wms ___will no longer have access to the Blue Marble and Landsat base map layers.___ Layers from other source should still work (e.g., Bing, USGS National Map, etc.)
 
 ### Alternatives to files.worldwind.arc.nasa.gov
 If the _files.worldwind.arc.nasa.gov_ service is offline, an alternative source for the 'worldwind.js' library is required.
