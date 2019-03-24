@@ -1,16 +1,6 @@
----
-date: 2016-04-20T10:13:26+02:00
-title: Getting Started
-menu:
-  main:
-    parent: dev-guide
-    identifier: explorer/dev/getting-started
-    weight: 10
----
-
 ## Simple Example
 
-This is how to use a `WorldWind.WorldWindow` object
+This is how to use a `WorldWind.WorldWindow` object.
 
 ```javascript
 // Register an event listener to be called when the page is loaded.
