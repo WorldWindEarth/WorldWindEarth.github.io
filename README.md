@@ -76,14 +76,28 @@ customizable web app ready to be deployed to your site. This tutorial demonstrat
 This is what we will build:
 <script async src="//jsfiddle.net/emxsys/e0a2z1km/embed/result/"></script>
 
-## Let's Begin
+## Lessons
+Let's begin!
 
 - [Lesson 1: HTML with Bootstrap](lesson-1.md) 
 - [Lesson 2: WorldWind Globe](lesson-2.md) 
 - [Lesson 3: Layer Management with Knockout](lesson-3.md) 
 - [Lesson 4: Place Search and Geocoding](lesson-4.md) 
 
----
+--- 
+
+# **WorldWind Resources**
+## Simple Example
+A very simple example showing to embed a WorldWind globe into a web page.
+
+- [Simple Example](simple-example.md) 
+- [Simple Demo](simple-demo.md) 
+
+## Application Template
+A feature-rich template for quickly building a WorldWind web app using the WorldWindJS library with Bootstrap and KnockoutJS. Simply fork or clone the project and publish to gh-pages.
+
+- [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) - template project for a feature-rich, responsive, customizable web app ready to be deployed to your site. 
+- [worldwind-web-app demo](https://worldwindearth.github.io/worldwind-web-app/) - live demonstration of the template hosted out of the project's gh-pages.---
 
 # ***NASA WorldWind Project Suspension***
 The following NASA announcment was made March 8, 2019:
@@ -195,21 +209,6 @@ _TODO_
 Information for NASA WorldWind Java SDK based applications.
 
 _TODO_
-
---- 
-
-# **WorldWind Resources**
-## Simple Example
-A very simple example showing to embed a WorldWind globe into a web page.
-
-- [Simple Example](simple-example.md) 
-- [Simple Demo](simple-demo.md) 
-
-## Application Template
-A feature-rich template for quickly building a WorldWind web app using the WorldWindJS library with Bootstrap and KnockoutJS. Simply fork or clone the project and publish to gh-pages.
-
-- [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) - template project for a feature-rich, responsive, customizable web app ready to be deployed to your site. 
-- [worldwind-web-app demo](https://worldwindearth.github.io/worldwind-web-app/) - live demonstration of the template hosted out of the project's gh-pages.
 
 ---
 
