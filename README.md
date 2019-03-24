@@ -205,6 +205,18 @@ A very simple example showing to embed a WorldWind globe into a web page.
 - [Simple Example](simple-example.md) 
 - [Simple Demo](simple-demo.md) 
 
+## Application Template
+A template for creating a WorldWindJS web app with Bootstrap and Knockout. Check out the [demo](https://worldwindearth.earth/worldwind-web-app).
+
+The [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) lets you quickly build a WorldWind web app using the community supported WorldWindJS library with Bootstrap and KnockoutJS. You will build a feature-rich, responsive, customizable web app ready to be deployed to your site. This template includes:
+
+- Initializing WorldWind with 3D globes and/or 2D maps
+- Configuring and managing layers and settings
+- Place name searches and geocoding
+- Creating placemarks (markers)
+- Going to locations
+- Multi-globe support
+
 ---
 # About
 _[WorldWindEarth](https://github.com/WorldWindEarth), [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) and the [Explorer](https://github.com/WorldWindEarth/explorer) are personal projects of [Bruce Schubert](https://github.com/emxsys). 
