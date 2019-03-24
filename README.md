@@ -206,7 +206,7 @@ A very simple example showing to embed a WorldWind globe into a web page.
 - [Simple Demo](simple-demo.md) 
 
 ## Application Template
-A template for creating a WorldWindJS web app with Bootstrap and Knockout. Check out the [demo](https://worldwindearth.earth/worldwind-web-app).
+A template for creating a WorldWindJS web app with Bootstrap and Knockout. Check out the [demo](https://worldwind.earth/worldwind-web-app).
 
 The [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) lets you quickly build a WorldWind web app using the community supported WorldWindJS library with Bootstrap and KnockoutJS. You will build a feature-rich, responsive, customizable web app ready to be deployed to your site. This template includes:
 
