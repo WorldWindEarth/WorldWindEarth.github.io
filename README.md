@@ -85,7 +85,7 @@ This is what we will build:
 
 ---
 
-# NASA WorldWind Project Suspension
+# ***NASA WorldWind Project Suspension***
 The following NASA announcment was made March 8, 2019:
 
 > WorldWind team would like to inform you that starting April 5, 2019, NASA WorldWind project will be suspended.
