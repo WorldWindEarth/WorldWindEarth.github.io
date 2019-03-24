@@ -157,6 +157,8 @@ have a direct affect your project's runtime.
 
 _TODO: How To_
 
+---
+
 ### Alternatives to using WorldWind Elevations
 #### Use the WorldWindJS library
 The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA elevation services.
@@ -167,6 +169,7 @@ _TODO_
 #### Build your own elevation server
 _TODO_
 
+---
 
 ### Alternatives to using WorldWind Imagery
 #### Use the WorldWindJS library
@@ -179,11 +182,14 @@ _TODO_
 #### Build your own imagery server
 _TODO_
 
+---
 
 ## WorldWindJava 
 Information for NASA WorldWind Java SDK based applications.
 
 _TODO_
+
+---
 
 ## WorldWindAndroid 
 Information for NASA WorldWind Java SDK based applications.
