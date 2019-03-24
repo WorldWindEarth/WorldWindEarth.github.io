@@ -210,8 +210,10 @@ A feature-rich template for quickly building a WorldWind web app using the World
 
 - [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) - template project for a feature-rich, responsive, customizable web app ready to be deployed to your site. 
 - [worldwind-web-app demo](https://worldwindearth.github.io/worldwind-web-app/) - live demonstration of the template hosted out of the project's gh-pages.
+
 ---
-# About
+
+# **About**
 _[WorldWindEarth](https://github.com/WorldWindEarth), [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) and the [Explorer](https://github.com/WorldWindEarth/explorer) are personal projects of [Bruce Schubert](https://github.com/emxsys). 
 I am a software engineer on the [NASA WorldWind](https://worldwind.arc.nasa.gov) 
 team, but these projects are built and maintained in my spare time._
