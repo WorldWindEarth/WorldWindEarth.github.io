@@ -90,19 +90,15 @@ Let's begin!
 ## Sample Application
 Here is a feature-rich application template for quickly building a web app using the WorldWindJS library with Bootstrap and KnockoutJS. Simply fork/clone the template project and publish to gh-pages.
 
+- [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) - template project for a feature-rich, responsive, customizable web app ready to be deployed to your site. 
+
+- [worldwind-web-app demo](https://worldwindearth.github.io/worldwind-web-app/) - live demonstration of the application hosted out of the project's gh-pages.
+
 ## Simple Example
 A very simple example showing to embed a WorldWind globe into a web page.
 
 - [Simple Example](simple-example.md) 
 - [Simple Demo](simple-demo.md) 
-
-## WMS Example
-
-
-
-- [worldwind-web-app template](https://github.com/WorldWindEarth/worldwind-web-app) - template project for a feature-rich, responsive, customizable web app ready to be deployed to your site. 
-
-- [worldwind-web-app demo](https://worldwindearth.github.io/worldwind-web-app/) - live demonstration of the application hosted out of the project's gh-pages.
 
 ---
 
