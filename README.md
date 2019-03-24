@@ -200,8 +200,8 @@ _TODO_
 
 # **WorldWind Resources**
 ## Simple Example
-- [Simple Example](simple-example.md) 
-- [Simple Demo](simple-demo.md) 
+- [Simple Example Code](simple-example.md) 
+- [Simple Demo - Code and Runtime](simple-demo.md) 
 
 ---
 # About
