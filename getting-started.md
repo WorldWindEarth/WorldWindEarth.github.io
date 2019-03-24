@@ -40,7 +40,7 @@ function eventWindowLoaded() {
 <meta charset="UTF-8">
 <title>WorldWind Example</title>
 <!-- Include the Web WorldWind library. -->
-<script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/@nasaworldwind/worldwind@0.9.0/build/dist/worldwind.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div style="position: absolute; top: 50px; left: 50px;">
