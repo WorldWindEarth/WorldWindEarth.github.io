@@ -137,8 +137,7 @@ _Example: New script element, using WorldWindJS at unpkg.com_
 <script src="https://unpkg.com/worldwindjs@1.7.0/build/dist/worldwind.min.js"></script>
 ```
 
-#### Use NASA's worldwind.js from a CDN
-
+#### Use NASA's WorldWind library from a CDN
 Change script element's src from _files.worldwind_ to the npm-based CDN at _unpkg.com_ :
 
 _Example: Old script element, using files.worldwind.arc.nasa.gov_
@@ -150,16 +149,34 @@ _Example: New script element, using unpkg.com_
 <script src="https://unpkg.com/@nasaworldwind/worldwind@0.9.0/build/dist/worldwind.min.js"></script>
 ```
 
-#### Use the WebWorldWind source code
-_TODO_
+#### Use the Web WorldWind source code
+Deploy the Web WorldWind source code, either directly or in compiled form, to your web server. 
+This solution is the most flexible as it provides the capability to customize the sources for 
+resources, imagery and elevations, and it ensures any changes at NASA or WorldWind Earth do not
+have a direct affect your project's runtime.
+
+_TODO: How To_
 
 ### Alternatives to using WorldWind Elevations
 #### Use the WorldWindJS library
+The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA elevation services.
+
+#### Change the Web WorldWind source to use other elevation services
+_TODO_
+
+#### Build your own elevation server
 _TODO_
 
 
 ### Alternatives to using WorldWind Imagery
 #### Use the WorldWindJS library
+The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA imagery services.
+
+_TODO_
+#### Change the Web WorldWind source to use other imagary services
+_TODO_
+
+#### Build your own imagery server
 _TODO_
 
 
