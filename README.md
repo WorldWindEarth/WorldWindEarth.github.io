@@ -199,6 +199,6 @@ _TODO_
 --- 
 
 # About
-_[WorldWindEarth](https://github.com/WorldWindEarth/WorldWindEarth.github.io), [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) and the [Explorer](https://github.com/WorldWindEarth/explorer) are personal projects of [Bruce Schubert](https://github.com/emxsys). 
+_[WorldWindEarth](https://github.com/WorldWindEarth), [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) and the [Explorer](https://github.com/WorldWindEarth/explorer) are personal projects of [Bruce Schubert](https://github.com/emxsys). 
 I am a software engineer on the [NASA WorldWind](https://worldwind.arc.nasa.gov) 
 team, but these projects are built and maintained in my spare time._
