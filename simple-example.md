@@ -23,7 +23,7 @@ function eventWindowLoaded() {
 ```
 
 
-This is how to embed a WorldWind into an HTML web page
+This is how to embed WorldWind into an HTML web page.
 
 ```html
 <!DOCTYPE html>
