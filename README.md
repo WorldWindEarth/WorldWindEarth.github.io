@@ -200,8 +200,10 @@ _TODO_
 
 # **WorldWind Resources**
 ## Simple Example
-- [Simple Example Code](simple-example.md) 
-- [Simple Demo - Code and Runtime](simple-demo.md) 
+A very simple example showing to embed a WorldWind globe into a web page.
+
+- [Simple Example](simple-example.md) 
+- [Simple Demo](simple-demo.md) 
 
 ---
 # About
