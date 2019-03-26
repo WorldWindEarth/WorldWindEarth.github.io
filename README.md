@@ -9,7 +9,7 @@ other _WorldWind_ programming resources.
 
 # **WorldWind Explorer**
 The [__Explorer__](https://worldwind.earth/explorer) is an HTML5/JavaScript geo-browser 
-_[powered by WorldWindJS](https://emxsys.github.io/worldwindjs/)_ and the Knockout and Bootstrap libraries. 
+_[powered by WorldWindJS](https://worldwind.earth/worldwindjs/)_ and the Knockout and Bootstrap libraries. 
 It is implemented as a single-page web application (SPA) using JQuery to dynamically load content.
 
 ## Overview
