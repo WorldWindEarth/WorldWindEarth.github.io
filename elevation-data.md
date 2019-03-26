@@ -33,6 +33,8 @@ https://www.gebco.net/data_and_products/gridded_bathymetry_data/
 
 ### CGIAR-CSI
 #### SRTM Digital Elevation Database v4.1 - 90m
+The SRTM digital elevation data provided on this site has been processed to fill data voids and to facilitate its ease of use by a wide group of potential users. This data is provided in an effort to promote the use of geospatial science and applications for sustainable development and resource conservation in the developing world. Digital elevation models (DEM) for the entire globe, covering all of the countries of the world, are available for download on this site.
+
 https://cgiarcsi.community/data/srtm-90m-digital-elevation-database-v4-1/
 
 ### USGS:
