@@ -184,7 +184,7 @@ have a direct affect your project's runtime.
 #### Use the WorldWindJS library
 The WorldWindJS library v2.0 (to-be-released) does not have dependencies on the NASA elevation services.
 
-#### Change the Web WorldWind source to use other elevation services
+#### Change the source to use other elevation services
 _TODO_
 
 #### Build your own elevation server
@@ -198,7 +198,7 @@ _TODO_
 The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA imagery services.
 
 _TODO_
-#### Change the Web WorldWind source to use other imagary services
+#### Change the source to use other imagery services
 _TODO_
 
 #### Build your own imagery server
