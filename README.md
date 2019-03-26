@@ -243,9 +243,9 @@ define(['worldwind'],
          * @alias MySrtmElevationCoverage
          * @constructor
          * @augments TiledElevationCoverage
-         * @classdesc Provides elevations for Earth. Elevations are drawn from the cusomt elevation service.
+         * @classdesc Provides elevations for Earth. Elevations are drawn from the custom elevation service.
          */
-        var EmxsysSrtmElevationCoverage = function () {
+        var MySrtmElevationCoverage = function () {
             WorldWind.TiledElevationCoverage.call(this, {
                 coverageSector: new WorldWind.Sector(-60, 60, -180, 180),
                 resolution: 0.000833333333333,
