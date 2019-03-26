@@ -71,6 +71,9 @@ done
 echo All Done!
 ```
 
+Later, in the MapServer configuration, we will create tile index shapefiles with `gdaltindex` and `shptree`.
+
+
 - See: [Render images straight out of S3 with the vsicurl driver](https://github.com/mapserver/mapserver/wiki/Render-images-straight-out-of-S3-with-the-vsicurl-driver)
 - See: [Utilizing Cloud Optimized GeoTIFF - Developers Guide](http://www.cogeo.org/developers-guide.html)
 - See: [Cloud Optimized GeoTIFF](https://trac.osgeo.org/gdal/wiki/CloudOptimizedGeoTIFF#HowtogenerateitwithGDAL)
@@ -158,7 +161,7 @@ Create the `elev.map` file and open it for editing:
 sudo touch /opt/mapserver/map/elev.map
 sudo nano /opt/mapserver/map/elev.map
 ```
-Use the following content for SRTM as a template. You can add mulitiple `LAYER` entries. Note the `SHAPEPATH` and `TILEINDEX` entries: here we are referencing the tile index shapefiles (to be created) that point to the actual elevation data GeoTiffs. 
+Use the following content for GEBCO and SRTM as a template. You can add mulitiple `LAYER` entries. Note the `SHAPEPATH` and `TILEINDEX` entries: here we are referencing the tile index shapefiles (to be created) that point to the location of the actual elevation data GeoTiffs. 
 
 ```
 MAP
