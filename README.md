@@ -185,7 +185,116 @@ have a direct affect your project's runtime.
 The WorldWindJS library v2.0 (to-be-released) does not have dependencies on the NASA elevation services.
 
 #### Change the source to use other elevation services
-_TODO_
+Here's an example for using alternative elevation services.  In this example, two custom elevation coverages
+are defined, a custom elevation model is then defined, and finally, the WorldWindow is configured with the 
+custom elevation model.
+
+Example: a custom GEBCO elevation coverage class:
+```
+/**
+ * @exports MyGebcoElevationCoverage
+ */
+define(['worldwind'],
+    function (WorldWind) {
+        "use strict";
+
+        /**
+         * Constructs an Earth elevation coverage using GEBCO data.
+         * @alias MyGebcoElevationCoverage
+         * @constructor
+         * @augments TiledElevationCoverage
+         * @classdesc Provides elevations for Earth. Elevations are drawn from the custom elevation service.
+         */
+        var MyGebcoElevationCoverage = function () {
+            WorldWind.TiledElevationCoverage.call(this, {
+                coverageSector: WorldWind.Sector.FULL_SPHERE,
+                resolution: 0.008333333333333,
+                retrievalImageFormat: "application/bil16",
+                minElevation: -11000,
+                maxElevation: 8850,
+                urlBuilder: new WorldWind.WmsUrlBuilder("https://mapserver.somewhere.net/elev", "gebco", "", "1.3.0")
+            });
+
+            this.displayName = "GEBCO Earth Elevation Coverage";
+        };
+
+        MyGebcoElevationCoverage.prototype = Object.create(WorldWind.TiledElevationCoverage.prototype);
+
+        return MyGebcoElevationCoverage;
+    });
+```
+
+Example: a custom SRTM elevation coverage class:
+```javascript
+/**
+ * @exports MySrtmElevationCoverage
+ */
+define(['worldwind'],
+    function (WorldWind) {
+        "use strict";
+
+        /**
+         * Constructs an Earth elevation coverage using CGIAR SRTM data.
+         * @alias MySrtmElevationCoverage
+         * @constructor
+         * @augments TiledElevationCoverage
+         * @classdesc Provides elevations for Earth. Elevations are drawn from the cusomt elevation service.
+         */
+        var EmxsysSrtmElevationCoverage = function () {
+            WorldWind.TiledElevationCoverage.call(this, {
+                coverageSector: new WorldWind.Sector(-60, 60, -180, 180),
+                resolution: 0.000833333333333,
+                retrievalImageFormat: "application/bil16",
+                minElevation: -11000,
+                maxElevation: 8850,
+                urlBuilder: new WorldWind.WmsUrlBuilder("https://mapserver.somewhere.net/elev", "srtm-cgiar", "", "1.3.0")
+            });
+
+            this.displayName = "SRTM-CGIAR Earth Elevation Coverage";
+        };
+
+        MySrtmElevationCoverage.prototype = Object.create(WorldWind.TiledElevationCoverage.prototype);
+
+        return MySrtmElevationCoverage;
+    });
+```
+
+Example: a custom elevation model class that uses the custom coverages:
+```javascript
+/**
+ * @exports MyElevationModel
+ */
+define([
+        'model/globe/elevations/MyGebcoElevationCoverage',
+        'model/globe/elevations/MySrtmElevationCoverage',
+        'worldwind'
+    ],
+    function (MyGebcoElevationCoverage,
+              MySrtmElevationCoverage,
+              WorldWind) {
+        "use strict";
+
+        /**
+         * Constructs an MyElevationModel consisting of two elevation coverages GEBCO, SRTM.
+         * @alias MyElevationModel
+         * @constructor
+         */
+        var MyElevationModel = function () {
+            WorldWind.ElevationModel.call(this);
+
+            this.addCoverage(new MyGebcoElevationCoverage());
+            this.addCoverage(new MySrtmElevationCoverage());
+        };
+
+        MyElevationModel.prototype = Object.create(WorldWind.ElevationModel.prototype);
+
+        return MyElevationModel;
+    });
+```
+Example: the function for creating a `WorldWindow` with the custom elevation model:
+```javascript
+var wwd = new WorldWind.WorldWindow("globe-canvas", new MyElevationModel());
+```
 
 #### Build your own elevation server
 - [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
