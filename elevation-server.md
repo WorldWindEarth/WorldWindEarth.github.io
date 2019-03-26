@@ -1,4 +1,4 @@
-# How to setup a WorldWind elevation server
+# How to Setup an Elevation Server
 
 ## Introduction  
 
