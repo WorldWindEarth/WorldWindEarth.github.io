@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-This guide shows how to create a WMS server using Apache, MapServer and GDAL to serve elevations to WorldWind clients. 
+This guide shows how to create a WMS server using Apache, [MapServer](https://mapserver.org/documentation.html) and GDAL to serve elevations to WorldWind clients. 
 WorldWind clients consume elevation data from a WMS service in an `application/bil16` mime-type via OGC WMS requests.
 
 WorldWind Java clients obtain the elevation data via a compound GetMap request with multiple layers of different resoluions and extents, for example:
@@ -11,7 +11,7 @@ WorldWind Java clients obtain the elevation data via a compound GetMap request w
 GET https://worldwind26.arc.nasa.gov/elev?service=WMS&request=GetMap&version=1.3.0&layers=NASA_SRTM30_900m_Tiled,aster_v2,USGS-NED&format=application/bil16&width=512&height=512&styles=&crs=EPSG:4326&bbox=-20,-20,-10,-10
 ```
 
-Whereas, Web WorldWind clients obtain the elevation data via distinct GetMap requests (componsiting the different layers is perfomred in the client); for example:
+Whereas, Web WorldWind clients obtain the elevation data via distinct GetMap requests and then componsites the different layer resolutions into its terrain model. For example:
 
 ```
 GET https://worldwind26.arc.nasa.gov/elev?service=WMS&request=GetMap&version=1.3.0&transparent=TRUE&layers=GEBCO&styles=&format=application/bil16&width=256&height=256&crs=EPSG:4326&bbox=33.75,-119.53125,35.15625,-118.125
@@ -22,18 +22,28 @@ GET https://worldwind26.arc.nasa.gov/elev?service=WMS&request=GetMap&version=1.3
 ## Step 1: Prepare your data
 
 ### Install GDAL
-Install the GDAL tools used to prepare your data for MapServer. MapServer itself also
-uses GDAL to serve the elevations as application/bil16 files:
+We will use GDAL to prepare your data for MapServer. GDAL is also used by MapServer itself also to serve the elevations as `application/bil16` files:
 
-First, update the package management indexes:
+First, update the your package management indexes:
 ```shell
 sudo apt-get update
 ```
-Now, install the GDAL package (gdal-bin)
+Then, install the GDAL package (gdal-bin):
 ```shell
 sudo apt-get install gdal-bin
 ```
+### Cloud-optimize your data for MapServer
+For your MapServer instance to perform well, you need to optimize your data. The data is optimized by tiling, adding overviews, adding a spatial index, and compressing.
 
+- See: [Render images straight out of S3 with the vsicurl driver](https://github.com/mapserver/mapserver/wiki/Render-images-straight-out-of-S3-with-the-vsicurl-driver)
+- See: [Utilizing Cloud Optimized GeoTIFF - Developers Guide](http://www.cogeo.org/developers-guide.html)
+- See: [Cloud Optimized GeoTIFF](https://trac.osgeo.org/gdal/wiki/CloudOptimizedGeoTIFF#HowtogenerateitwithGDAL)
+
+### Reference
+- See: [gdal_translate](https://www.gdal.org/gdal_translate.html)
+- See: [gdaladdo](https://www.gdal.org/gdaladdo.html)
+- See: [gdalinfo](https://www.gdal.org/gdalinfo.html)
+- See: [gdaltindex](https://www.gdal.org/gdaltindex.html)
 
 ## Step 2: Setup Apache
 The ubiquitous Apache web server is used to serve elevations via a MapServer CGI integration.
