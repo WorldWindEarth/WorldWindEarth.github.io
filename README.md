@@ -41,7 +41,7 @@ project and build the library yourself using the instructions in the [README](ht
 ## Examples
 
 - [WorldWind Explorer](https://worldwind.earth/explorer) - A feature rich geo-browser built with Bootstrap and KnockoutJS.
-- [WorldWind React Demo](https://emxsys.github.io/worldwind-react-app) - An example geo-browser built with React.
+- [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
 
 ## Quick Start
 
@@ -53,9 +53,9 @@ Do you want to start developing right away?
 Are you interested in building a WorldWindJS geo-browser or embedding a globe in a web page using [React](https://reactjs.org)? 
 Checkout these resources: 
 
-- [worldwind-react-globe](https://github.com/emxsys/worldwind-react-app) - A Globe component that encapsulates WorldWindJS
-- [worldwind-react-globe-bs4](https://github.com/emxsys/worldwind-react-app) - Bootstrap UI components for the Globe component
-- [worldwind-react-app](https://github.com/emxsys/worldwind-react-app) - An example geo-browser web app 
+- [worldwind-react-globe](https://github.com/worldwindearth/worldwind-react-app) - A Globe component that encapsulates WorldWindJS
+- [worldwind-react-globe-bs4](https://github.com/worldwindearth/worldwind-react-app) - Bootstrap UI components for the Globe component
+- [worldwind-react-app](https://github.com/worldwindearth/worldwind-react-app) - An example geo-browser web app 
 
 ---
 
