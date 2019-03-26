@@ -8,14 +8,9 @@ menu:
     weight: 10
 ---
 Here is a small, yet feature-rich Web WorldWind sample application. The JavaScript/HTML/CSS
-code can be viewed and _edited_ right here on this web page courtesy of [JS Bin](http://jsbin.com).
-Click the JS Bin menu headings to show/hide the code editor(s). 
+code can be viewed and _edited_ right here on [JS Bin](https://jsbin.com/nomafey/edit?html,output).
 
-{{< iframe url="http://jsbin.com/nomafey/embed?output" >}}
-
-This app is hosted in [JS Bin](http://jsbin.com), the [Collaborative JavaScript Debugging App](https://github.com/jsbin/jsbin). 
-
-The complete source for this example can be viewed, downloaded or forked [on GitHub](https://gist.github.com/emxsys/85f0c07ac9caf494265392c6faed3eaa).
+The complete source for this example can be viewed, downloaded or forked as a [GitHub Gish](https://gist.github.com/emxsys/85f0c07ac9caf494265392c6faed3eaa).
 
 
 ### Overview
