@@ -100,7 +100,10 @@ A very simple example showing to embed a WorldWind globe into a web page.
 - [Simple Example](simple-example.md) 
 - [Simple Demo](simple-demo.md) 
 
-## Data Sources
+## Create Your Own WorldWind Servers
+- [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
+
+## Data Sources for Elevations
 - [Elevation Data](elevation-data.md) - Sources for elevation data and conversion scripts
 
 ---
@@ -187,7 +190,8 @@ The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the N
 _TODO_
 
 #### Build your own elevation server
-_TODO_
+- [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
+- [Elevation Data](elevation-data.md) - Sources for elevation data and conversion scripts
 
 ---
 
