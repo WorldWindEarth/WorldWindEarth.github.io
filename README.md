@@ -184,6 +184,11 @@ have a direct affect your project's runtime.
 #### Use the WorldWindJS library
 The WorldWindJS library v2.0 (to-be-released) does not have dependencies on the NASA elevation services.
 
+
+#### Build your own elevation server
+- [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
+- [Elevation Data](elevation-data.md) - Sources for elevation data and conversion scripts
+
 #### Change the source to use other elevation services
 Here's an example for using alternative elevation services.  In this example, two custom elevation coverages
 are defined, a custom elevation model is then defined, and finally, the WorldWindow is configured with the 
@@ -295,10 +300,6 @@ Example: the function for creating a `WorldWindow` with the custom elevation mod
 ```javascript
 var wwd = new WorldWind.WorldWindow("globe-canvas", new MyElevationModel());
 ```
-
-#### Build your own elevation server
-- [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
-- [Elevation Data](elevation-data.md) - Sources for elevation data and conversion scripts
 
 ---
 
