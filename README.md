@@ -76,7 +76,7 @@ customizable web app ready to be deployed to your site. This tutorial demonstrat
 This is what we will build:
 <script async src="//jsfiddle.net/emxsys/e0a2z1km/embed/result/"></script>
 
-## Lessons
+## Tutorial
 Let's begin!
 
 - [Lesson 1: HTML with Bootstrap](lesson-1.md) 
@@ -100,7 +100,7 @@ A very simple example showing to embed a WorldWind globe into a web page.
 - [Simple Example](simple-example.md) 
 - [Simple Demo](simple-demo.md) 
 
-## Create Your Own WorldWind Servers
+## Setup Your Own WorldWind Servers
 - [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
 
 ## Data Sources for Elevations
@@ -178,13 +178,11 @@ This solution is the most flexible as it provides the capability to customize th
 resources, imagery and elevations, and it ensures any changes at NASA or WorldWind Earth do not
 have a direct affect your project's runtime.
 
-_TODO: How To_
-
 ---
 
 ### Alternatives to using WorldWind Elevations
 #### Use the WorldWindJS library
-The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA elevation services.
+The WorldWindJS library v2.0 (to-be-released) does not have dependencies on the NASA elevation services.
 
 #### Change the Web WorldWind source to use other elevation services
 _TODO_
