@@ -35,6 +35,42 @@ sudo apt-get install gdal-bin
 ### Cloud-optimize your data for MapServer
 For your MapServer instance to perform well, you need to optimize your data. The data is optimized by tiling, adding overviews, adding a spatial index, and compressing.
 
+Consider the following script used to tile and compress SRTM imagery and then add overviews. `gdal_translate` is used to convert the input file to a tiled and compressed GeoTiff using the lossless LZW compression. Subsequently, `gdaladdo` is used to add overviews to the GeoTiff.
+
+```shell
+#!/bin/bash
+set +x
+
+# Convert SRTM DEMs to GTIF files with LZW PREDICTOR 2 compression
+
+input_path='/elevations/srtm-cgiar/gtif'
+output_path='/elevations/srtm-cgiar/optimized'
+
+mkdir -p $output_path
+
+for file in ${input_path}/*.tif; do
+	input_file=${file}
+	base_file=`basename ${file}`
+        output_file=${output_path}/${base_file}
+	if [ -s $output_file ]
+	then
+		echo Skipping $output_file
+		continue
+	fi
+
+	echo Converting $input_file to $output_file
+	gdal_translate -of GTiff -co TILED=YES -co BLOCKXSIZE=512 -co BLOCKYSIZE=512 -co COMPRESS=LZW -co PREDICTOR=2 $input_file $output_file
+
+	# build the overviews
+	if [ -s $output_file ]
+	then
+		echo Adding overviews to $output_file
+		gdaladdo -r cubic --config COMPRESS_OVERVIEW LZW --config PREDICTOR_OVERVIEW 2  --config INTERLEAVE_OVERVIEW PIXEL $gtif_file 2 4 8 16 32 64 128
+	fi
+done
+echo All Done!
+```
+
 - See: [Render images straight out of S3 with the vsicurl driver](https://github.com/mapserver/mapserver/wiki/Render-images-straight-out-of-S3-with-the-vsicurl-driver)
 - See: [Utilizing Cloud Optimized GeoTIFF - Developers Guide](http://www.cogeo.org/developers-guide.html)
 - See: [Cloud Optimized GeoTIFF](https://trac.osgeo.org/gdal/wiki/CloudOptimizedGeoTIFF#HowtogenerateitwithGDAL)
