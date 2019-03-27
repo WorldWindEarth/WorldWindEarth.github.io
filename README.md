@@ -50,6 +50,7 @@ Do you want to start developing right away?
 - Browse the source code for the [web-app-template](https://github.com/WorldWindEarth/worldwindjs/tree/develop/apps/web-app-template)
 - View/edit a completed app in [JSFiddle](https://jsfiddle.net/emxsys/e0a2z1km/)
 
+## React
 Are you interested in building a WorldWindJS geo-browser or embedding a globe in a web page using [React](https://reactjs.org)? 
 Checkout these resources: 
 
