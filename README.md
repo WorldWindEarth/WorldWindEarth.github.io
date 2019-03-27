@@ -38,11 +38,6 @@ WorldWindJS releases can be downloaded from [GitHub](https://github.com/WorldWin
 or from [npm](https://www.npmjs.com/package/worldwindjs).  Of course, you can fork or clone this
 project and build the library yourself using the instructions in the [README](https://github.com/WorldWindEarth/worldwindjs/blob/master/README.md).
 
-## Examples
-
-- [WorldWind Explorer](https://worldwind.earth/explorer) - A feature rich geo-browser built with Bootstrap and KnockoutJS.
-- [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
-
 ## Quick Start
 
 Do you want to start developing right away? 
@@ -51,6 +46,7 @@ Do you want to start developing right away?
 - View/edit a completed app in [JSFiddle](https://jsfiddle.net/emxsys/e0a2z1km/)
 
 ## React
+
 Are you interested in building a WorldWindJS geo-browser or embedding a globe in a web page using [React](https://reactjs.org)? 
 Checkout these resources: 
 
@@ -58,6 +54,10 @@ Checkout these resources:
 - [worldwind-react-globe-bs4](https://github.com/worldwindearth/worldwind-react-globe-bs4) - Bootstrap UI components for the Globe component
 - [worldwind-react-app](https://github.com/worldwindearth/worldwind-react-app) - An example geo-browser web app 
 
+## Examples
+
+- [WorldWind Explorer](https://worldwind.earth/explorer) - A feature rich geo-browser built with Bootstrap and KnockoutJS.
+- [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
 ---
 
 # **How to Build a WorldWindJS Web App**
