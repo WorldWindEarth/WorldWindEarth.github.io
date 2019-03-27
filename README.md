@@ -54,9 +54,11 @@ Checkout these resources:
 - [worldwind-react-globe-bs4](https://github.com/worldwindearth/worldwind-react-globe-bs4) - Bootstrap UI components for the Globe component
 - [worldwind-react-app](https://github.com/worldwindearth/worldwind-react-app) - An example geo-browser web app 
 
-## Examples
+## Example Applications
+Here some examples of applications built with WorldWindJS:
 
 - [WorldWind Explorer](https://worldwind.earth/explorer) - A feature rich geo-browser built with Bootstrap and KnockoutJS.
+- [Wildfire Management Tools](https://worldwind.earth/wildfire) - An Explorer-based geo-browser for predicting the potential behavior of wildfire.
 - [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
 
 ---
