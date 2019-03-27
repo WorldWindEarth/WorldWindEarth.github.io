@@ -53,8 +53,8 @@ Do you want to start developing right away?
 Are you interested in building a WorldWindJS geo-browser or embedding a globe in a web page using [React](https://reactjs.org)? 
 Checkout these resources: 
 
-- [worldwind-react-globe](https://github.com/worldwindearth/worldwind-react-app) - A Globe component that encapsulates WorldWindJS
-- [worldwind-react-globe-bs4](https://github.com/worldwindearth/worldwind-react-app) - Bootstrap UI components for the Globe component
+- [worldwind-react-globe](https://github.com/worldwindearth/worldwind-react-globe) - A Globe component that encapsulates WorldWindJS
+- [worldwind-react-globe-bs4](https://github.com/worldwindearth/worldwind-react-globe-bs4) - Bootstrap UI components for the Globe component
 - [worldwind-react-app](https://github.com/worldwindearth/worldwind-react-app) - An example geo-browser web app 
 
 ---
@@ -116,10 +116,7 @@ The following NASA announcment was made March 8, 2019:
 > All the WorldWind servers providing elevation and imagery will be unavailable. While you can still download the SDKs from GitHub, there will be no technical support. If you have questions and/or concerns, please feel free to email at: [worldwind-info@lists.nasa.gov](mailto:worldwind-info@lists.nasa.gov)
 
 ## WebWorldWind 
-Information for NASA Web WorldWind SDK based applications.
-
-### Issues
-The ramifications of the suspension are severe, including:
+Here is important information for mitigating issues regarding NASA Web WorldWind SDK based applications. The ramifications of the suspension are severe, including:
 
 - **Critical:** Web applications linked to _https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js_ will fail if the _files.worldwind.arc.nasa.gov_ server is shutdown. ___The globe will not be displayed.___ Applications that use a local copy of _worldwind.js_ or _worldiwnd.min.js_ should continue to work, but image resources linked to "files.worldwind..." will not be displayed (e.g., the globe background, view controls, compass, etc.).
 
