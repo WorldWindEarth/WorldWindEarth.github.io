@@ -113,9 +113,9 @@ A very simple example showing to embed a WorldWind globe into a web page.
 ---
 
 # ***NASA WorldWind Project Suspension***
-The following NASA announcment was made March 8, 2019:
+NASA announced a impending shutdown on March 8, 2019:
 
-> WorldWind team would like to inform you that starting April 5, 2019, NASA WorldWind project will be suspended.
+> WorldWind team would like to inform you that starting May 3, 2019, NASA WorldWind project will be suspended.
 >
 > All the WorldWind servers providing elevation and imagery will be unavailable. While you can still download the SDKs from GitHub, there will be no technical support. If you have questions and/or concerns, please feel free to email at: [worldwind-info@lists.nasa.gov](mailto:worldwind-info@lists.nasa.gov)
 
@@ -184,7 +184,8 @@ have a direct affect your project's runtime.
 ### Alternatives to using WorldWind Elevations
 #### Use the WorldWindJS library
 The WorldWindJS library v2.0 (to-be-released) does not have dependencies on the NASA elevation services.
-
+I have been beta-testing the serving of `application/bil` elevations from my own servers (which I pay for out of pocket).
+If/when a shutdown becomes imminent I will transition WorldWindJS to use my servers.
 
 #### Build your own elevation server
 - [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
@@ -306,7 +307,9 @@ var wwd = new WorldWind.WorldWindow("globe-canvas", new MyElevationModel());
 
 ### Alternatives to using WorldWind Imagery
 #### Use the WorldWindJS library
-The WorldWindJS library v2.0 (to-be-release) does not have dependencies on the NASA imagery services.
+The WorldWindJS library v2.0 (to-be-released) will not have dependencies on the NASA imagery services.
+I have been beta-testing the serving of Blue Marble and Landsate imagery from own servers (which I pay for out of pocket).
+If/when a shutdown becomes imminent I will transition WorldWindJS to use my servers.
 
 _TODO_
 #### Change the source to use other imagery services
@@ -318,9 +321,7 @@ _TODO_
 ---
 
 ## WorldWindJava 
-Information for NASA WorldWind Java SDK based applications.
-
-_TODO_
+See the of [WorldWindJava Community Edition](https://github.com/WorldWindEarth/WorldWindJava) (WWJ-CE) at https://github.com/WorldWindEarth/WorldWindJava
 
 ---
 
