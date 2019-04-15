@@ -1,5 +1,8 @@
-This site is the home for the [WorldWind Explorer](https://worldwind.earth/explorer) web app and 
-other _WorldWind_ programming resources.
+This site is the home for the [WorldWind Explorer](https://worldwind.earth/explorer) web app, the 
+[WorldWindJS library](https://github.com/WorldWindEarth/worldwindjs)--a community edition of 
+[NASA Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind), and the 
+[WorldWind Java-Community Edition](https://github.com/WorldWindEarth/WorldWindJava) SDK--a fork of 
+[NASA WorldWind Java](https://github.com/NASAWorldWind/WorldWindJava), plus other _WorldWind_ programming resources.
 
 **Table of Contents**
 * TOC
@@ -61,9 +64,7 @@ Here some examples of applications built with WorldWindJS:
 - [Wildfire Management Tools](https://worldwind.earth/wildfire) - An Explorer-based geo-browser for predicting the potential behavior of wildfire.
 - [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
 
----
-
-# **How to Build a WorldWindJS Web App**
+## **How to Build a WorldWindJS Web App**
 
 This tutorial shows you how to build a [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) web app
 using [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and 
@@ -80,7 +81,7 @@ customizable web app ready to be deployed to your site. This tutorial demonstrat
 This is what we will build:
 <script async src="//jsfiddle.net/emxsys/e0a2z1km/embed/result/"></script>
 
-## Tutorial
+### Tutorial
 Let's begin!
 
 - [Lesson 1: HTML with Bootstrap](lesson-1.md) 
@@ -88,9 +89,6 @@ Let's begin!
 - [Lesson 3: Layer Management with Knockout](lesson-3.md) 
 - [Lesson 4: Place Search and Geocoding](lesson-4.md) 
 
---- 
-
-# **WorldWind Resources**
 ## Sample Application
 Here is a feature-rich [worldwind-web-app](https://github.com/WorldWindEarth/worldwind-web-app) template for quickly building a web app using the WorldWindJS library with Bootstrap and KnockoutJS. Simply fork/clone the project and publish to gh-pages.
 
@@ -103,6 +101,27 @@ A very simple example showing to embed a WorldWind globe into a web page.
 
 - [Simple Example](simple-example.md) 
 - [Simple Demo](simple-demo.md) 
+
+--- 
+
+# WorldWindJava - Community Edition
+
+See the of [WorldWindJava Community Edition (WWJ-CE)](https://github.com/WorldWindEarth/WorldWindJava) repository at https://github.com/WorldWindEarth/WorldWindJava. WWJ-CE seeks to mitigate the effects of the suspension and continue 
+the development of WorldWind Java. Pull requests are welcomed.
+
+- [Overview (README)](https://github.com/WorldWindEarth/WorldWindJava/blob/develop/README.md)
+- [WorldWindJava API Documentation](https://worldwind.earth/WorldWindJava/)
+- [Get Started, Examples and Tutorials in the Wiki](https://github.com/WorldWindEarth/WorldWindJava/wiki)
+
+---
+
+# WorldWindAndroid - Community Edition
+
+_TODO_ Coming soon.
+
+---
+
+# **WorldWind Resources**
 
 ## Setup Your Own WorldWind Servers
 - [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
@@ -318,17 +337,6 @@ _TODO_
 #### Build your own imagery server
 _TODO_
 
----
-
-## WorldWindJava 
-See the of [WorldWindJava Community Edition](https://github.com/WorldWindEarth/WorldWindJava) (WWJ-CE) at https://github.com/WorldWindEarth/WorldWindJava
-
----
-
-## WorldWindAndroid 
-Information for NASA WorldWind Java SDK based applications.
-
-_TODO_
 
 ---
 
