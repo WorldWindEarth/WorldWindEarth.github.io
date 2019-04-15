@@ -106,8 +106,10 @@ A very simple example showing to embed a WorldWind globe into a web page.
 
 # WorldWindJava - Community Edition
 
-See the of [WorldWindJava Community Edition (WWJ-CE)](https://github.com/WorldWindEarth/WorldWindJava) repository at https://github.com/WorldWindEarth/WorldWindJava. WWJ-CE seeks to mitigate the effects of the suspension and continue 
-the development of WorldWind Java. Pull requests are welcomed.
+[WorldWindJava Community Edition (WWJ-CE)](https://github.com/WorldWindEarth/WorldWindJava) is a community supported
+fork of the [NASA WorldWind Java SDK](https://github.com/NASAWorldWind/WorldWindJava). It is hosted at 
+https://github.com/WorldWindEarth along with other WorldWind-based projects. WWJ-CE seeks to mitigate the effects of 
+the suspension and continue the development of WorldWind Java. _Pull requests are accepted._
 
 - [Overview (README)](https://github.com/WorldWindEarth/WorldWindJava/blob/develop/README.md)
 - [WorldWindJava API Documentation](https://worldwind.earth/WorldWindJava/)
