@@ -30,7 +30,7 @@ It has a search feature to find places.
 
 ---
 
-# **WorldWindJS Library**
+# **WorldWindJS Library (Web WorldWind - Community Edition)**
 
 [__WorldWindJS__](https://github.com/WorldWindEarth/worldwindjs) is a fork of the popular [Web WorldWind](https://github.com/NASAWorldWind/WebWorldWind)
 library from NASA (with contributions from ESA). This fork provides a release channel for builds based on the latest fixes
@@ -104,7 +104,7 @@ A very simple example showing to embed a WorldWind globe into a web page.
 
 --- 
 
-# WorldWindJava - Community Edition
+# **WorldWindJava - Community Edition**
 
 [WorldWindJava Community Edition (WWJ-CE)](https://github.com/WorldWindEarth/WorldWindJava) is a community supported
 fork of the [NASA WorldWind Java SDK](https://github.com/NASAWorldWind/WorldWindJava). It is hosted at 
@@ -117,9 +117,12 @@ the suspension and continue the development of WorldWind Java. _Pull requests ar
 
 ---
 
-# WorldWindAndroid - Community Edition
+# **WorldWindAndroid - Community Edition**
 
-_TODO_ Coming soon.
+[WorldWindAndroid Community Edition (WWA-CE)](https://github.com/WorldWindEarth/WorldWindAndroid) is a community supported
+fork of the [NASA WorldWind Android SDK](https://github.com/NASAWorldWind/WorldWindAndroid). Like the WWJ-CA, WWA-CE is also hosted
+at https://github.com/WorldWindEarth. WWA-CE seeks to mitigate the effects of the suspension and continue the development of 
+WorldWind Android. _Pull requests are accepted._
 
 ---
 
