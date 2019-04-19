@@ -64,7 +64,7 @@ Here some examples of applications built with WorldWindJS:
 - [Wildfire Management Tools](https://worldwind.earth/wildfire) - An Explorer-based geo-browser for predicting the potential behavior of wildfire.
 - [WorldWind React Demo](https://worldwind.earth/worldwind-react-app) - An example geo-browser built with React.
 
-## **How to Build a WorldWindJS Web App**
+## How to Build a WorldWindJS Web App
 
 This tutorial shows you how to build a [WorldWindJS](https://github.com/WorldWindEarth/worldwindjs) web app
 using [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and 
@@ -82,6 +82,8 @@ This is what we will build:
 <script async src="//jsfiddle.net/emxsys/e0a2z1km/embed/result/"></script>
 
 ### Tutorial
+{:.no_toc}
+
 Let's begin!
 
 - [Lesson 1: HTML with Bootstrap](lesson-1.md) 
@@ -156,6 +158,8 @@ Here is important information for mitigating issues caused by the shutdown in NA
 If the _files.worldwind.arc.nasa.gov_ service is offline, an alternative source for the 'worldwind.js' library is required.
 
 #### Use the WorldWindJS library
+{:.no_toc}
+
 The WorldWindJS library is designed as a drop in replacement for `worldwind.js` (and `worldwind.min.js`). Here are two implementations
 for using WorldWindJS.
 
@@ -186,6 +190,8 @@ _Example: New script element, using WorldWindJS at unpkg.com_
 ```
 
 #### Use NASA's WorldWind library from a CDN
+{:.no_toc}
+
 Change script element's src from _files.worldwind_ to the npm-based CDN at _unpkg.com_ :
 
 _Example: Old script element, using files.worldwind.arc.nasa.gov_
@@ -198,6 +204,8 @@ _Example: New script element, using unpkg.com_
 ```
 
 #### Use the Web WorldWind source code
+{:.no_toc}
+
 Deploy the Web WorldWind source code, either directly or in compiled form, to your web server. 
 This solution is the most flexible as it provides the capability to customize the sources for 
 resources, imagery and elevations, and it ensures any changes at NASA or WorldWind Earth do not
@@ -212,10 +220,14 @@ I have been beta-testing the serving of `application/bil` elevations from my own
 If/when a shutdown becomes imminent I will transition WorldWindJS to use my servers.
 
 #### Build your own elevation server
+{:.no_toc}
+
 - [Elevation Server](elevation-server.md) - How to create a WorldWind elevation server
 - [Elevation Data](elevation-data.md) - Sources for elevation data and conversion scripts
 
 #### Change the source to use other elevation services
+{:.no_toc}
+
 Here's an example for using alternative elevation services.  In this example, two custom elevation coverages
 are defined, a custom elevation model is then defined, and finally, the WorldWindow is configured with the 
 custom elevation model.
@@ -330,18 +342,33 @@ var wwd = new WorldWind.WorldWindow("globe-canvas", new MyElevationModel());
 ---
 
 ### Alternatives to using WorldWind Imagery
+
 #### Use the WorldWindJS library
+{:.no_toc}
+
 The WorldWindJS library v2.0 (to-be-released) will not have dependencies on the NASA imagery services.
 I have been beta-testing the serving of Blue Marble and Landsate imagery from own servers (which I pay for out of pocket).
 If/when a shutdown becomes imminent I will transition WorldWindJS to use my servers.
 
 _TODO_
 #### Change the source to use other imagery services
+{:.no_toc}
+
 _TODO_
 
 #### Build your own imagery server
+{:.no_toc}
+
 _TODO_
 
+
+## WorldWindJava
+
+_TODO_
+
+## WorldWindAndroid
+
+_TODO_
 
 ---
 
