@@ -214,7 +214,7 @@ have a direct affect your project's runtime.
 ---
 
 ### Alternatives to using WorldWind Elevations
-I have an alternative server for NASA elevations (from [worldwind25/arc/nasa.gov/wms](https://worldwind26/arc/nasa.gov/elev)) 
+I have an alternative server for NASA elevations (from [worldwind26.arc.nasa.gov/elev](https://worldwind26/arc/nasa.gov/elev)) 
 staged for production should the WorldWind shutdown become a reality.  I will make this server available if needed.
 
 #### Use the WorldWindJS library
@@ -347,7 +347,7 @@ var wwd = new WorldWind.WorldWindow("globe-canvas", new MyElevationModel());
 ---
 
 ### Alternatives to using WorldWind Imagery
-I have an alternative server for NASA core imagery (from [worldwind25/arc/nasa.gov/wms](https://worldwind26/arc/nasa.gov/elev)) 
+I have an alternative server for NASA core imagery (from [worldwind25.arc.nasa.gov/wms](https://worldwind25.arc.nasa.gov/wms)) 
 staged for production should the WorldWind shutdown become a reality.  I will make this server available if needed.
 
 #### Use the WorldWindJS library
@@ -370,8 +370,8 @@ _TODO_
 
 
 ## WorldWindJava
-I have alternative servers for NASA core imagery (from [worldwind25/arc/nasa.gov/wms](https://worldwind25/arc/nasa.gov/wms)) 
-and NASA elevations (from [worldwind26/arc/nasa.gov/wms](https://worldwind26/arc/nasa.gov/elev)) staged for production should the WorldWind shutdown become a reality.  I will make this server available if needed.
+I have alternative servers for NASA core imagery (from [worldwind25.arc.nasa.gov/wms](https://worldwind25.arc.nasa.gov/wms)) 
+and NASA elevations (from [worldwind26.arc.nasa.gov/elev](https://worldwind26.arc.nasa.gov/elev)) staged for production should the WorldWind shutdown become a reality.  I will make these servers available if needed.
 
 To leverage these servers, you will need to alter the URLs in the [`src/config/config.Earth`](https://github.com/WorldWindEarth/WorldWindJava/tree/develop/src/config/Earth)folder.
 
