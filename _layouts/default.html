@@ -10,6 +10,8 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>    
   {% endif %}     
+    <script async src="https://unpkg.com/worldwindjs@1.9.5/build/dist/worldwind.min.js"></script>
+    <script async src="/scripts/header.globe.js"></script>
     <meta charset="UTF-8">
     
 {% seo %}
@@ -22,9 +24,10 @@
   <body>
     <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
-    <header class="page-header" role="banner">
+    <header class="page-header" role="banner" style="position: relative; isolation: isolate;">
+      <canvas id="worldwindow" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: -1; pointer-events: none; touch-action: none;"></canvas>
       <h1 class="project-name"><a href="/"><img src="/images/worldwindearth-logo.png" align="top" alt="Home"></a> {{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline" style="opacity:1">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
